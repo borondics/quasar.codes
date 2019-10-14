@@ -3,15 +3,16 @@ title = "Contact"
 url = "/contact-private/"
 +++
 
-Do you find Quasar useful and would like to contribute to the project? We are
-always happy to form new connections.
+We strive to implement new features in Quasar, but our resources are limited. If you
+require a feature urgently and are willing to finance it, we are ready to allocate extra
+programming resources. 
 
-Also, contact us if your are missing a specific component (visualization, file reader, 
-preprocessing method, or similar) and are willing to commit resources towards
-its development.
+As a recognition of your financial contribution, the newly implemented feature will 
+be closed source (only for your use) for 6 months and will be open sourced after. Furthermore,
+you will be referenced both in the source code and on the Quasar website as a contributor.
+This way we can grow faster for the whole community!
 
-Please describe your proposal or issue as thoroughly as possible. If you are
-proposing an addition to Quasar, please also mention a rough deadline and available resources.
+Please send us a short description of your problem and we will get back to you with a quote.
 
 
  <form id="contact-form" method="post" action="https://formspree.io/marko.toplak@fri.uni-lj.si">
