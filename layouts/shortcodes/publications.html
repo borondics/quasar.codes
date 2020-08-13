@@ -1,7 +1,9 @@
-In total, <b>{{ len $.Site.Data.publications.article }}</b> citations.
+{{ $current_year := now.Format "2006"}}
 
-{{ range $year := slice 2020 2019 2018 2017 }}
-<h3>{{$year}}</h3>
+In total, <b>{{ len $.Site.Data.publications.article }} papers</b> cite Quasar or Orange Spectroscopy.
+
+{{ range $year := seq $current_year 2017 }}
+<h2>{{$year}}</h2>
 {{ range $.Site.Data.publications.article }}
 {{ if eq .year $year }}
 <p>{{.author}}, <a href="https://doi.org/{{.doi}}"><em>{{.title}}</em></a>, {{.journal}} {{.year}}</p>
