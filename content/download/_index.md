@@ -7,23 +7,27 @@ listing = true
 Windows
 =======
 
-[Quasar-0.9.0-Miniconda-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-0.9.0-Miniconda-x86_64.exe) - an
+[Quasar-1.4.0-Miniconda-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-1.4.0-Miniconda-x86_64.exe) - an
 installer that can be used without administrative privileges (64 bit).
 
-The package includes python 3.7.7,
-Orange 3.26.0, Orange-Spectroscopy 0.5.4, numpy 1.16.6,
-scipy 1.2.1, scikit-learn 0.22.1.
+The package includes python 3.8.8,
+Orange 3.31.1, Orange-Spectroscopy 0.6.3, numpy 1.19.5,
+scipy 1.5.3, scikit-learn 0.23.2.
 
 macOS
 =====
 
-[Quasar-0.9.0.dmg](https://download.biolab.si/download/files/quasar/Quasar-0.9.0.dmg) - a universal
+[Quasar-1.4.0-Python3.8.8.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.4.0-Python3.8.8.dmg) - a universal
 bundle; copy it into your Applications folder.
 
-The package includes python 3.7.6,
-Orange 3.26.0, Orange-Spectroscopy 0.5.4, numpy 1.16.6,
-scipy 1.2.3, scikit-learn 0.22.2.
+The package includes python 3.8.8,
+Orange 3.31.1, Orange-Spectroscopy 0.6.3, numpy 1.19.5,
+scipy 1.5.4, scikit-learn 0.23.2.
 
+Version archive
+===============
+
+If needed, you can download previous versions from our [download archive](https://download.biolab.si/download/files/quasar/).
 
 Other platforms
 ===============
@@ -52,11 +56,18 @@ To open Bruker OPUS files, also install opusFC (only available for some platform
 With conda
 ----------
 
-If you are using python provided by Anaconda distribution, you are almost ready to go.
+If you are using python provided by the miniconda / Anaconda distribution, you are almost ready to go.
+
+As with pip, we highly recommend you create a separate environment for your Quasar installation.
+
 Add two new channels:
 
-    conda config --append channels conda-forge
-    conda config --append channels https://quasar.codes/conda/
+    conda config --add channels conda-forge
+    conda config --add channels https://quasar.codes/conda/
+
+and set the channel_priority recommended by [conda-forge](https://conda-forge.org/docs/user/tipsandtricks.html#how-to-fix-it):
+
+    conda config --set channel_priority strict
 
 and install the quasar package:
 
@@ -64,9 +75,5 @@ and install the quasar package:
 
 To open Bruker OPUS files, also install opusFC (only available for some platforms):
 
-    conda install opusFC
+    conda install opusfc
 
-Version archive
-===============
-
-If needed, you can download previous versions from our [download archive](https://download.biolab.si/download/files/quasar/).

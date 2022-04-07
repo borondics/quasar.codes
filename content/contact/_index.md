@@ -3,6 +3,8 @@ title = "Contact us!"
 url = "/contact/"
 +++
 
+<div id="newsletter"></div>
+
 Sign up for our newsletter
 ==========================
 
@@ -18,10 +20,12 @@ You will receive updates on releases, new features and live or online events.
     </div>
 </form>
 
-Send us your issues or questions
-================================
+<div id="formspree"></div>
 
-If somethings is not working, you have a question or just want to say hi, send a message below.;
+Send us issues, questions and requests
+======================================
+
+If something is not working, you have a question, a request or just want to say "_Hi!&nbsp;..."_
 
 <form id="contact-form" method="post" action="https://formspree.io/quasar.answer@gmail.com">
    <div class="controls">

@@ -1,12 +1,14 @@
-{{ $current_year := now.Format "2006"}}
-
-In total, <b>{{ len $.Site.Data.publications.article }} papers</b> cite Quasar or Orange Spectroscopy.
-
-{{ range $year := seq $current_year 2017 }}
-<h2>{{$year}}</h2>
 {{ range $.Site.Data.publications.article }}
-{{ if eq .year $year }}
-<p>{{.author}}, <a href="https://doi.org/{{.doi}}"><em>{{.title}}</em></a>, {{.journal}} {{.year}}</p>
+    {{ if le $lyear .year }}
+        {{ $lyear = .year }}
+    {{ end }}
 {{ end }}
-{{ end }}
+
+{{ range $year := seq $lyear 2017 }}
+    <h2>{{$year}}</h2>
+    {{ range $.Site.Data.publications.article }}
+        {{ if eq .year $year }}
+            <p>{{.author}}, <a href="https://doi.org/{{.doi}}"><em>{{.title}}</em></a>, {{.journal}} {{.year}}</p>
+        {{ end }}
+    {{ end }}
 {{ end }}

@@ -5,13 +5,13 @@
         <div class="pb5 pb6-m pb7-l mw8 center">
             {{ partial "navigation.html" . }}
             <div class="mt4 mt6-m mt6-l ph3 mw6 w-40-l">
-                <h1 class="f2 f1-l fw3 white-90 mb0 lh-title">{{ .Page.Title }}</h1>
-                <h2 class="fw3 f5 white-90 mt3 mb4">
+                <h1 class="f2 f1-l fw3 mb0 lh-title">{{ .Page.Title }}</h1>
+                <p class="mt3 mb4">
                     {{ .Page.Description }}
-                </h2>
-                <a class="f6 no-underline grow dib v-mid bg-qred white-80 ba ph3 pv2 mb3 br2" href="/download/">Download</a>
-                <span class="dib v-mid ph3 white-80 mb3">or</span>
-                <a class="f6 no-underline grow dib v-mid white-80 ba ph3 pv2 mb3 br2" href="/contact/">Contribute</a>
+                </p>
+                <a class="f5 no-underline grow dib v-mid white-90 bg-qred ba ph3 pv2 mb3 br2" href="/download/">Download</a>
+                <span class="dib v-mid ph3 mb3">or</span>
+                <a class="f5 no-underline grow dib v-mid white-90 ba ph3 pv2 mb3 br2" href="/contact/">Contribute</a>
             </div>
         </div>
     </div>
@@ -25,25 +25,25 @@
             <img src="graphics/quasar_intro_illustration.png" style="width: 100%">
         </div>
         <div class="ph3 mb6-l ph3 mw6 w-40-l center">
-        <h1 class="f2 f1-l fw3 white-90 mb0 lh-title">Draw workflows</h1>
-        <h2 class="fw3 f5 white-90 mt3 mb4">
+        <h1 class="f2 f1-l fw3 mb0 lh-title">Draw workflows</h1>
+        <p class="mt3 mb4">
             Freely build visual data analysis workflows that help answer your scientific questions.
             Combine widgets that share input and output types. There are infinite
             possibilities!
-        </h2></div>
+        </p></div>
     </div>
 </div>
 
 <div class="mw8 center mv4 mv5-l">
     <div class="flex flex-wrap items-top">
         <div class="ph3 mb6-l ph3 mw6 w-40-l center">
-        <h1 class="f2 f1-l fw3 white-90 mb0 lh-title">Unite experiments</h1>
-        <h2 class="fw3 f5 white-90 mt3 mb4">
+        <h1 class="f2 f1-l fw3 mb0 lh-title">Unite experiments</h1>
+        <p class="mt3 mb4">
             A whole is always more than the sum of parts. Although our journey started with (hyper)spectral data
             through the <a href="https://github.com/Quasars/orange-spectroscopy/">Orange Spectroscopy toolbox</a>,
             Quasar intends to add file readers, processing tools, and visualizations for multiple measurement techniques.
             This will allow the discovery of new scientific insights through multimodal data analysis.
-        </h2>
+        </p>
         </div>
         <div class="w-100 ph3 w-60-l mw6 mw8-l center">
             <img src="graphics/quasar_web_illustration_instruments.png" style="width: 100%">
@@ -57,16 +57,16 @@
             <img src="graphics/quasar_orange_bike_illustration.png" style="width: 100%">
         </div>
         <div class="ph3 mb6-l ph3 mw6 w-40-l center">
-        <h1 class="f2 f1-l fw3 white-90 mb0 lh-title">Meet the family</h1>
-        <h2 class="fw3 f5 white-90 mt3 mb4">
+        <h1 class="f2 f1-l fw3 mb0 lh-title">Meet the family</h1>
+        <p class="mt3 mb4">
             Orange is a general purpose machine learning and visualization platform which can be extended.
             Quasar is a variant of Orange and includes pre-installed toolboxes for scientific data analysis.
             Another member of the Orange family is Single Cell Orange, specializing in genomics data.
-        </h2>
-            <span class="dib v-mid pr3 white-80 mb3">Meet</span>
-            <a class="f6 no-underline grow dib v-mid bg-qred white-80 ba ph3 pv2 mb3 br2" href="http://orange.biolab.si/">Orange</a>
-            <span class="dib v-mid ph3 white-80 mb3">or</span>
-            <a class="f6 no-underline grow dib v-mid white-80 ba ph3 pv2 mb3 br2" href="https://singlecell.biolab.si/">scOrange</a>
+        </p>
+            <span class="dib v-mid pr3 mb3">Meet</span>
+            <a class="f5 no-underline grow dib v-mid bg-qred ba ph3 pv2 mb3 br2 white-90" href="http://orange.biolab.si/">Orange</a>
+            <span class="dib v-mid ph3 mb3">or</span>
+            <a class="f5 no-underline grow dib v-mid ba ph3 pv2 mb3 br2 white-90" href="https://singlecell.biolab.si/">scOrange</a>
         </div>
     </div>
 </div>
@@ -77,16 +77,16 @@
 
         <div class="ph3 mb6-l ph3 mw6 w-50-l center">
         <h1 class="f2 f1-l fw3 black-90 mb0 lh-title">Build a community!</h1>
-        <h2 class="fw3 f5 black-90 mt3">
+        <p class="black-90 mt3">
             Quasar is a collaborative effort of many institutions.
             We aim to benefit the entire scientific community through open source,
             democratic data analysis.
-        </h2>
-        <h2 class="fw3 f5 black-90 mt3 mb4">
+        </p>
+        <p class="black-90 mt3 mb4">
             We hope that you will join our effort!
-        </h2>
+        </p>
 
-            <a class="f6 no-underline grow dib v-mid bg-qred white-80 ba ph3 pv2 mb3 br2" href="/contact/">Contact us</a>
+            <a class="no-underline grow dib v-mid bg-qred ba ph3 pv2 mb3 br2 white-90" href="/contact/">Contact us</a>
         </div>
 
         <div class="flex flex-wrap items-center w-50-l center justify-center justify justify-start-l mt0-l mt3">
@@ -96,6 +96,7 @@
             <a href="http://lightsource.ca/"><img class="mw5 mb3" src="logo/cls.png"></a>
             <a href="https://www.nmbu.no/en/faculty/realtek/research/groups/biospectroscopy/"><img class="mw5 mb3" src="logo/biospec.png"></a>
             <a href="https://www.lnls.cnpem.br/sirius-en/"><img class="mw5 mb3" src="logo/lnls.png"></a>
+            <a href="https://www.photothermal.com/"><img class="mw5 mb3" src="logo/PTSCorp.png"></a>
         </div>
 
     </div>
