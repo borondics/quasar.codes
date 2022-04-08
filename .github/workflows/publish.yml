@@ -1,5 +1,9 @@
 name: Push to GitHub Pages on push to master
 on:
+  schedule:
+    # every day at midnight: https://crontab.guru/every-midnight
+    - cron:  '0 0 * * *'
+
   push:
     branches:
       - master
@@ -39,4 +43,5 @@ jobs:
           REPO: self
           BRANCH: gh-pages
           FOLDER: public
+          SKIP_EMPTY_COMMITS: True
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
