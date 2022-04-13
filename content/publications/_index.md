@@ -11,7 +11,7 @@ M. Toplak, et al. [Infrared Orange: Connecting Hyperspectral Data with Machine L
 
 Impact
 ------
-Our [Google Scholar profile](https://scholar.google.com/citations?user=_7AMrKgAAAAJ) shows that we currently have **49 citations**. However, our impact is much higher: the works that use Quasar received more than **363 citations** already! 
+Our [Google Scholar profile](https://scholar.google.com/citations?user=_7AMrKgAAAAJ) shows that we currently have **{{< citations_direct >}} 
+citations**. However, our impact is much higher: the works that use Quasar received more than **363 citations** already! 
 
 Thanks, and keep it coming guys!!! 
-
