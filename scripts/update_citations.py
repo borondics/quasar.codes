@@ -38,10 +38,16 @@ FN = "data/citations.toml"
 td = toml.load(FN)
 
 if len(fcit) < int(td["direct"]):
-    print("Citation number has decreased; exiting.")
+    print("Citation number of direct citations has decreased; exiting.")
     sys.exit(-1)
 else:
     td["direct"] = len(fcit)
+
+if secondary_cit < int(td["secondary"]):
+    print("Citation number of secondary citations has decreased; exiting.")
+    sys.exit(-1)
+else:
+    td["secondary"] = secondary_cit
 
 with open(FN,  "wt") as of:
     toml.dump(td, of)
