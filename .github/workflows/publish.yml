@@ -23,6 +23,16 @@ jobs:
           rm -rf public 2> /dev/null
           rm *.deb
 
+      - name: Setup Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: '3.8'
+
+      - name: Refresh citations
+        run: |
+          pip install https://github.com/scholarly-python-package/scholarly/archive/refs/heads/main.zip
+          python scripts/update_citations.py
+
       - name: Build conda index
         run: |
           conda install conda-build
