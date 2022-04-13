@@ -2,7 +2,6 @@ import sys
 
 import toml
 from scholarly import scholarly
-import numpy as np
 
 author = scholarly.search_author_id('_7AMrKgAAAAJ')  # _7AMrKgAAAAJ is Quasar
 
@@ -30,7 +29,7 @@ citing_authors = set([c for c in citing_authors if c]) # citing authors with Goo
 print(f'\nThere are {len(citing_authors)} people citing Quasar with a Google Scholar profile.')
 
 # count how many papers cite those papers that use Quasar - this is the real impact.
-secondary_cit = np.sum([paper["num_citations"] for paper in fcit])
+secondary_cit = sum([paper["num_citations"] for paper in fcit])
 print(f'\n{secondary_cit} papers cite the works which use Quasar.')
 
 FN = "data/citations.toml"
