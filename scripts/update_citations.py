@@ -3,6 +3,8 @@ import sys
 import toml
 from scholarly import scholarly
 
+print("Searching on Google scholar")
+
 author = scholarly.search_author_id('_7AMrKgAAAAJ')  # _7AMrKgAAAAJ is Quasar
 
 quasar_stats = scholarly.fill(author, sections=['basics', 'indices', 'counts', 'publications'])
