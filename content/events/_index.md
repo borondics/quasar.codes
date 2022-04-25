@@ -12,13 +12,18 @@ Would you like to have your own on-site workshop? [Contact us](/contact/#formspr
 
 ## Future
 
-__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html)__  
-_March 23 and 25, 2021
-Online workshop organized by the Diamond Synchrotron   
-Number of participants: ~30_
+__[Saint Aubin, France](https://www.synchrotron-soleil.fr/en/events/stat-ir-6)__  
+_May 11-13, 2022   
+Online workshop organized by the SOLEIL Synchrotron   
+Number of participants: ~40_
 
 
 ## Past
+
+__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html)__  
+_March 23 and 25, 2021  
+Online workshop organized by the Diamond Synchrotron   
+Number of participants: ~30_
 
 __[Lund, Sweden](https://indico.linxs.lu.se/event/165/)__  
 _Live and online hybrid event organized by LINXS  
