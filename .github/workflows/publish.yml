@@ -31,11 +31,12 @@ jobs:
         with:
           python-version: '3.8'
 
-      - name: Refresh citations
-        run: |
-          pip install https://github.com/scholarly-python-package/scholarly/archive/refs/heads/main.zip
-          pip install toml
-          python scripts/update_citations.py
+      # Disabled for now due to spurious timeouts
+      #- name: Refresh citations
+      #  run: |
+      #    pip install https://github.com/scholarly-python-package/scholarly/archive/refs/heads/main.zip
+      #    pip install toml
+      #    python scripts/update_citations.py
 
       - name: Build conda index
         run: |
