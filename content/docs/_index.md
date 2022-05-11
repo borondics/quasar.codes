@@ -7,7 +7,7 @@ listing = true
 To efficiently use Quasar, familiarize yourself both with general Orange components and with
 components specific to Quasar.
 
-You can find our [training materials on GitHub](https://github.com/biolab/orange-lecture-notes). If you feel like writing up a chapter, please feel free to contribute!
+Here we link the latest [Quasar training materials](https://raw.githubusercontent.com/biolab/orange-lecture-notes/master/books/2022-statir.pdf). If you feel like writing up a chapter, please feel free to [contribute on Github](https://github.com/biolab/orange-lecture-notes)!
 
 Orange
 ======
