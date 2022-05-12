@@ -9,6 +9,8 @@ components specific to Quasar.
 
 You can find our [training materials on GitHub](https://github.com/biolab/orange-lecture-notes). If you feel like writing up a chapter, please feel free to contribute!
 
+Read [this excellent paper](https://doi.org/10.1371/journal.pcbi.1008671) to learn about overfitting through hands-on examples using Orange. 
+
 Orange
 ======
 - [Video tutorials for Orange](https://www.youtube.com/channel/UClKKWBe2SCAEyv7ZNGhIe4g)
