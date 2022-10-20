@@ -7,24 +7,24 @@ listing = true
 Windows
 =======
 
-[Quasar-1.5.0-Miniconda-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-1.5.0-Miniconda-x86_64.exe) - an
+[Quasar-1.6.0-Miniconda-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-1.6.0-Miniconda-x86_64.exe) - an
 installer that can be used without administrative privileges (64 bit).
 
 When updating, remove the older version first. If there are any problems, also remove the corresponding Miniconda and reinstall.
 
 The package includes python 3.8.8,
-Orange 3.32.0, Orange-Spectroscopy 0.6.5, numpy 1.19.5,
-scipy 1.5.3, scikit-learn 1.0.1.
+Orange 3.33.0, Orange-Spectroscopy 0.6.6, numpy 1.21.6,
+scipy 1.7.3, scikit-learn 1.1.1.
 
 macOS
 =====
 
-[Quasar-1.5.0-Python3.8.8.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.5.0-Python3.8.8.dmg) - a universal
+[Quasar-1.6.0-Python3.8.8.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.6.0-Python3.8.8.dmg) - a universal
 bundle; copy it into your Applications folder.
 
 The package includes python 3.8.8,
-Orange 3.32.0, Orange-Spectroscopy 0.6.5, numpy 1.19.5,
-scipy 1.5.4, scikit-learn 1.0.2.
+Orange 3.33.0, Orange-Spectroscopy 0.6.6, numpy 1.21.6,
+scipy 1.7.3, scikit-learn 1.1.2.
 
 Version archive
 ===============
