@@ -14,18 +14,19 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
+No upcoming events at the moment.
+
+## Past
+
 __[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2022/Infrared-microspectroscopy-analysis-training---QUASAR-software0.html)__  
 _Novermber 1-3, 2022  
 Live workshop organized by the Diamond Synchrotron  
-Number of participants: TBA_
+Number of participants: ~30_
 
 __[Padova, Italy](https://www.dpss.unipd.it/nirs-practical-applications)__  
 _October 20, 2022  
 Independent, hybrid workshop organized by the Monash University (Australia) and Padova University (Italy)  
-Number of participants: TBA_
-
-
-## Past
+Number of participants: ~30_
 
 __[Saint Aubin, France](https://www.synchrotron-soleil.fr/en/events/stat-ir-6)__  
 _May 11-13, 2022  
