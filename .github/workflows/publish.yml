@@ -50,6 +50,9 @@ jobs:
           hugo
           echo 'quasar.codes' > public/CNAME
           touch public/.nojekyll
+          mkdir -p public/.github/workflows/
+          cp .github/workflows/links-fail-fast.yml public/.github/workflows/
+          cp .lycheeignore public/
 
       # Deploy to local repo
       - name: Deploy
