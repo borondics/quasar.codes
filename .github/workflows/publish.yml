@@ -50,9 +50,6 @@ jobs:
           hugo
           echo 'quasar.codes' > public/CNAME
           touch public/.nojekyll
-          mkdir -p public/.github/workflows/
-          cp .github/workflows/links-fail-fast.yml public/.github/workflows/
-          cp .lycheeignore public/
 
       # Deploy to local repo
       - name: Deploy
@@ -64,3 +61,9 @@ jobs:
           FOLDER: public
           SKIP_EMPTY_COMMITS: True
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.5.4
+        with:
+          args: "--verbose --no-progress './public/**/*.html'"
+          fail: true
