@@ -34,7 +34,7 @@ print(f'\nThere are {len(citing_authors)} people citing Quasar with a Google Sch
 secondary_cit = sum([paper["num_citations"] for paper in fcit])
 print(f'\n{secondary_cit} papers cite the works which use Quasar.')
 
-FN = "data/citations.toml"
+FN = "../data/citations.toml"
 td = toml.load(FN)
 
 if len(fcit) < int(td["direct"]):
