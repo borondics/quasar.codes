@@ -14,7 +14,10 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
-No upcoming events at the moment.
+__[Saint Aubin, France](https://indico.synchrotron-soleil.fr/event/61/)__  
+_October 16-18, 2023  
+Workshop organized at the SOLEIL Synchrotron  
+Number of participants: ~20_
 
 ## Past
 
