@@ -63,7 +63,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Link Checker
-        uses: lycheeverse/lychee-action@v1.5.4
+        uses: lycheeverse/lychee-action@v1.8.0
         with:
           args: "--verbose --no-progress './public/**/*.html'"
           fail: true
