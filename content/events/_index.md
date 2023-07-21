@@ -4,25 +4,47 @@ url = "/events/"
 listing = true
 +++
 
-Would you like to meet us? Come to one of our live training events or participate online!
+Would you like to learn about Quasar directly from us? 
 
-If you would like to be notified about upcoming events and training sessions sign up for our [newsletter](/contact/#newsletter) or register to one of the events below.
+Participate in one of our training workshops!
 
-Would you like to have your own on-site workshop? [Contact us](/contact/#formspree) and let's talk! 
+[Sign up for our newsletter](/contact/#newsletter) or register to a future event if you would like to be notified about upcoming workshops.
+
+Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#formspree) 
 
 ## Future
 
-__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html)__  
-_March 23 and 25, 2021
-Online workshop organized by the Diamond Synchrotron   
-Number of participants: ~30_
-
+__[Saint Aubin, France](https://indico.synchrotron-soleil.fr/event/61/)__  
+_October 16-18, 2023  
+Workshop organized at the SOLEIL Synchrotron  
+Number of participants: ~20_
 
 ## Past
 
+__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2022/Infrared-microspectroscopy-analysis-training---QUASAR-software0.html)__  
+_Novermber 1-3, 2022  
+Live workshop organized by the Diamond Synchrotron  
+Number of participants: ~30_
+
+__[Padova, Italy](https://www.dpss.unipd.it/nirs-practical-applications)__  
+_October 20, 2022  
+Independent, hybrid workshop organized by the Monash University (Australia) and Padova University (Italy)  
+Number of participants: ~30_
+
+__[Saint Aubin, France](https://www.synchrotron-soleil.fr/en/events/stat-ir-6)__  
+_May 11-13, 2022  
+Online workshop organized by the SOLEIL Synchrotron  
+Number of participants: ~70_
+
+__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html)__  
+_March 23 and 25, 2021  
+Online workshop organized by the Diamond Synchrotron  
+Number of participants: ~30_
+
 __[Lund, Sweden](https://indico.linxs.lu.se/event/165/)__  
-_Live and online hybrid event organized by LINXS  
-January 13-15, 2021_
+_January 13-15, 2021  
+Hybrid workshop organized by LINXS  
+Number of participants: ~30_
 
 __[Saskatoon, Canada SK](https://midir.lightsource.ca/quasar-workshop-2020/)__  
 _October 15 and 16, 2020  
@@ -30,8 +52,8 @@ Online workshop organized by the Canadian Light Source
 Number of participants: ~80_
 
 __[Oxford, UK](https://twitter.com/DiamondLightSou/status/1281636643137560576)__  
-_July 7 and 10, 2020   
-Online workshop organized by the Diamond Synchrotron   
+_July 7 and 10, 2020  
+Online workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 
 __[Lund, Sweden](https://www.linxs.se/events/2020/5/22/linxs-event-online-lecture-user-friendly-analysis-of-spectroscopy-data-with-quasar-multivariate-statistics-and-machine-learning)__  
