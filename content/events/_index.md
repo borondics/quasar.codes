@@ -14,12 +14,22 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
+__[Berlin, Germany](https://quasar.codes/events/)__  
+_TBA in March, 20234  
+Workshop organized by the BESSY-II Synchrotron  
+Number of participants: ~30_
+
+## Past
+
+__[Lund, Sweden](https://x.com/LINXS_Sweden/status/1717853313285136391?s=20https://x.com/LINXS_Sweden/status/1717853313285136391?s=20)__  
+_October 25-27, 2023  
+Workshop organized at LINXS  
+Number of participants: ~8_
+
 __[Saint Aubin, France](https://indico.synchrotron-soleil.fr/event/61/)__  
 _October 16-18, 2023  
 Workshop organized at the SOLEIL Synchrotron  
 Number of participants: ~20_
-
-## Past
 
 __[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2022/Infrared-microspectroscopy-analysis-training---QUASAR-software0.html)__  
 _Novermber 1-3, 2022  
