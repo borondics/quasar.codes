@@ -1,3 +1,7 @@
+<p>In total, <b>{{ len $.Site.Data.publications.article }} papers</b> cite Quasar or Orange Spectroscopy.</p>
+
+{{ $lyear := 0 }}
+
 {{ range $.Site.Data.publications.article }}
     {{ if le $lyear .year }}
         {{ $lyear = .year }}
