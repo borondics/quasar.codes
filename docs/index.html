@@ -4,7 +4,7 @@
     <title>Quasar – Documentation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
     <meta property="og:title" content="Documentation" />
 <meta property="og:description" content="" />
@@ -12,15 +12,23 @@
 <meta property="og:url" content="https://quasar.codes/docs/" />
 
     <style>
+
+    html {
+      font-size: 1.1em;
+    }
+
     body {
       background-color: #191036;
-      font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
-      color: #fff;
+      font-family: 'Source Sans Pro', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+      color: hsla(0,0%,100%,0.9);
       line-height: 1.5;
-      font-weight: 300;
       background-image: url(/graphics/stars_background.png);
       background-position: center;
+      -webkit-font-smoothing: antialiased;
+      -moz-font-smoothing: antialiased;
+      -o-font-smoothing: antialiased;
     }
+    
     .bg-qred {
       background-color: #cd0651;
     }
@@ -41,10 +49,13 @@
     h1, h2, h3, h4, h5 {
       font-weight: 300;
       max-width: 35rem;
+      margin-bottom: 0.0rem;
     }
 
     p, ul, ol {
       max-width: 35rem;
+      margin-top: 0.7rem;
+      margin-bottom: 0.7rem;
     }
     </style>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127406029-1"></script>
@@ -68,10 +79,13 @@
         </a>
     </div>
     <div class="dtc v-mid tr pa3">
-        <a class="f6 fw4 hover-white no-underline white-80 dn dib-l pv2 ph3" href="/#features">Features</a>
-        <a class="f6 fw4 hover-white no-underline white-80 dib pv2 ph3" href="/screenshots">Screenshots</a>
-        <a class="f6 fw4 hover-white no-underline white-80 dib pv2 ph3" href="/docs">Docs</a>
-        <a class="f6 fw4 hover-white no-underline white-80 dn dib-ns ml2 pv2 ph3 ba br2" href="/download">Download</a>
+        <a class="hover-white no-underline white-90 dn dib-l pv2 ph3" href="/#features">Features</a>
+        <a class="hover-white no-underline white-90 dib pv2 ph3" href="/screenshots/">Screenshots</a>
+        <a class="hover-white no-underline white-90 dib pv2 ph3" href="/publications/">Publications</a>
+        <a class="hover-white no-underline white-90 dib pv2 ph3" href="/docs/">Docs</a>
+        <a class="hover-white no-underline white-90 dn dib-ns ml2 pv2 ph3 ba br2" href="/download/">Download</a>
+        <a class="hover-white no-underline white-90 dib pv2 ph3" href="/events/">Events</a>
+        <a class="hover-white no-underline white-90 dib pv2 ph3" href="/contact/">Contact</a>
     </div>
 </nav>
             </div>
@@ -86,12 +100,16 @@
 
     
 
-<h1 class="f2 f1-l fw3 white-90 mb0 lh-title">Documentation</h1>
+<h1 class="f2 f1-l fw3 white-90 mb3 lh-title">Documentation</h1>
 
 
 
 <p>To efficiently use Quasar, familiarize yourself both with general Orange components and with
-components specific to Quasar:</p>
+components specific to Quasar.</p>
+
+<p>Here we link the latest <a href="https://raw.githubusercontent.com/biolab/orange-lecture-notes/master/books/2022-statir.pdf">Quasar training materials</a>. If you feel like writing up a chapter, please feel free to <a href="https://github.com/biolab/orange-lecture-notes">contribute on Github</a>!</p>
+
+<p>Read <a href="https://doi.org/10.1371/journal.pcbi.1008671">this excellent paper</a> to learn about overfitting through hands-on examples using Orange.</p>
 
 <h1 id="orange">Orange</h1>
 
@@ -105,6 +123,19 @@ components specific to Quasar:</p>
 <ul>
 <li><a href="https://orange-spectroscopy.readthedocs.io">Widget documentation</a></li>
 <li><a href="https://www.youtube.com/playlist?list=PLmNPvQr9Tf-bPWjDJvJBPZJ6us_KTAD5T">Video tutorials for Orange Spectroscopy</a></li>
+</ul>
+
+<h1 id="development">Development</h1>
+
+<p>Our <a href="https://github.com/quasars/">public repositories</a> are hosted on github. Feel
+free to report issues or open pull requests. The main repositories are:</p>
+
+<ul>
+<li><a href="https://github.com/quasars/quasar">Quasar</a> - bringing together Orange
+and the Spectroscopy add-on</li>
+<li><a href="https://github.com/quasars/orange-spectroscopy">Orange spectroscopy</a> - Orange
+components for spectroscopy</li>
+<li><a href="https://github.com/biolab/orange3">Orange</a> - the backbone of Quasar</li>
 </ul>
 
 

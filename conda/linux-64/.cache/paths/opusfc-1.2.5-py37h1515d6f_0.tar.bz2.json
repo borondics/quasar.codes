@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "a5c8452acf53d807dd39a15e10917d07b4aca539d7690a730ce82986bb3c9c84",
+      "size_in_bytes": 1043
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "3191d2f4713f6a3c5df53308412f8fbfbd054bbbd2cba32814ae177bca434765",
+      "size_in_bytes": 184
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/native_libs.txt",
+      "path_type": "hardlink",
+      "sha256": "03f04a0889ba294a6d137b183420756ec6ae72636b85e51f120b1196501bbd4f",
+      "size_in_bytes": 39
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC-1.2.5-py3.7-linux-x86_64.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "0a44aa15c93e417f75ba508ad9a91f7bcf2df5f254dfc31abcff3f7e068a78ee",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC.cpython-37m-x86_64-linux-gnu.so",
+      "path_type": "hardlink",
+      "sha256": "d1111299cc4cc3ffa4588c0320507936e60970dbf0a41efd6755e4571a167a0e",
+      "size_in_bytes": 781176
+    },
+    {
+      "_path": "lib/python3.7/site-packages/opusFC.py",
+      "path_type": "hardlink",
+      "sha256": "5f33ac7677b63b58c112bf6d0d9fc6bdc2929b20d54f01493ff0f7bb38264884",
+      "size_in_bytes": 432
+    }
+  ],
+  "paths_version": 1
+}

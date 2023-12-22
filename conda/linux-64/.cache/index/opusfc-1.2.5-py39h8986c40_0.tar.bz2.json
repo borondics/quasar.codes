@@ -1,0 +1,1 @@
+{"build": "py39h8986c40_0", "build_number": 0, "depends": ["libgcc-ng >=9.3.0", "numpy", "python >=3.9,<3.10.0a0"], "name": "opusfc", "subdir": "linux-64", "timestamp": 1636130261098, "version": "1.2.5", "size": 186342, "md5": "65a39720c06f841b0c034a451f19bebf", "sha256": "5cd1abfb19dd0df6b716134bf579abb6570e64a38cac855e5e9a7984869a5ac7"}

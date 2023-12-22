@@ -1,0 +1,1 @@
+{"build": "py38h7235e96_0", "build_number": 0, "depends": ["numpy", "python >=3.8,<3.9.0a0", "vc >=14.1,<15.0a0", "vs2015_runtime >=14.16.27012,<15.0a0"], "name": "opusfc", "subdir": "win-64", "timestamp": 1636131019722, "version": "1.2.5", "size": 126207, "md5": "eb16412b373da5c248fa13b6e795c73f", "sha256": "fb4c48fac26f9b67eda6bad029f0c49a5ec32254e0b4713af98214e295e27792"}

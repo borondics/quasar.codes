@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "e8485103c3ce04c9e48a9df376991dfd1e6f2cefa2145c60dfdea6a4191939aa",
+      "size_in_bytes": 1075
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "9f4323a8bd2ff004ad4d60a68db494c91ee389186699a6c9895eb8029b898475",
+      "size_in_bytes": 199
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/native_libs.txt",
+      "path_type": "hardlink",
+      "sha256": "42705b23938097af59d30859550cf67df3da87a0a0608aa5e7401edc1d78c75e",
+      "size_in_bytes": 27
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "size_in_bytes": 2
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "e09f656c130b9c08b2c5ab7187c891295e449ed77febea2a6ceee9cc98ccb0fc",
+      "size_in_bytes": 6
+    },
+    {
+      "_path": "Lib/site-packages/opusFC-1.3.0-py3.9-win-amd64.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "0a44aa15c93e417f75ba508ad9a91f7bcf2df5f254dfc31abcff3f7e068a78ee",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "Lib/site-packages/opusFC.cp39-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "053b18ac3d2ad5ed350f7f947e6409d6b9c66c3cd3b89385a0514fda2e23ffa1",
+      "size_in_bytes": 315392
+    },
+    {
+      "_path": "Lib/site-packages/opusFC.py",
+      "path_type": "hardlink",
+      "sha256": "769538999d7eb3be2968e518c964b83e5395bc5e535fc5f9ccca5b037ca26e7c",
+      "size_in_bytes": 428
+    }
+  ],
+  "paths_version": 1
+}

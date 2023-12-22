@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/renishawWiRE-0.1.8-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "7d522de9d62db2dd56b948b45309d4b56aa4341899af8e7d323a01d96325cae4",
+      "size_in_bytes": 10530
+    },
+    {
+      "_path": "site-packages/renishawWiRE-0.1.8-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "8e3f22432ef1558462000f1a827b891f572ca4a43ccbb5a3016aa54e8021334c",
+      "size_in_bytes": 302
+    },
+    {
+      "_path": "site-packages/renishawWiRE-0.1.8-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/renishawWiRE-0.1.8-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "9273d23174fd01709299267a2345a72c9dd096e31fcfaa212067ab7f5d90f4ff",
+      "size_in_bytes": 77
+    },
+    {
+      "_path": "site-packages/renishawWiRE-0.1.8-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a3f830747917a267da2e7edb12e18ee3a9e20c67ea5121c4d24a1bbe3096519b",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "site-packages/renishawWiRE/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c176a329b3a07ae88446bf2e244493ffc667cef54a1736eafce64017abe011e8",
+      "size_in_bytes": 33
+    },
+    {
+      "_path": "site-packages/renishawWiRE/types.py",
+      "path_type": "hardlink",
+      "sha256": "64ee6db3f3fc06574dcbf2a7fec6cc95c93f5bac3b05ce87746e1f3f2d832ee7",
+      "size_in_bytes": 4298
+    },
+    {
+      "_path": "site-packages/renishawWiRE/utils.py",
+      "path_type": "hardlink",
+      "sha256": "85e1445cc026c4817958e3234303ee5a255759c808a3f420cf07ee5b6486516d",
+      "size_in_bytes": 331
+    },
+    {
+      "_path": "site-packages/renishawWiRE/wdfReader.py",
+      "path_type": "hardlink",
+      "sha256": "6cbb0ce995b5629a6d245a248adeb17188cffcbf2d697fc6ab3a2038aaf650b1",
+      "size_in_bytes": 23186
+    }
+  ],
+  "paths_version": 1
+}

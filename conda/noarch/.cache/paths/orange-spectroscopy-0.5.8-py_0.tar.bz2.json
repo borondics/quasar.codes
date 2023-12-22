@@ -1,0 +1,1415 @@
+{
+  "paths": [
+    {
+      "_path": "help/orange-spectroscopy/.buildinfo",
+      "path_type": "hardlink",
+      "sha256": "8fb79d03171fce4d1f058d360731fad1cc08104cf28626e9532d5d5b2fac8df1",
+      "size_in_bytes": 230
+    },
+    {
+      "_path": "help/orange-spectroscopy/OrangeSpectroscopyAdd-on.hhc",
+      "path_type": "hardlink",
+      "sha256": "eb06ca54762c7d55a460ccf46e9d39c9e4375ad5d45c8e4f240fe7a5c98b4640",
+      "size_in_bytes": 3444
+    },
+    {
+      "_path": "help/orange-spectroscopy/OrangeSpectroscopyAdd-on.hhk",
+      "path_type": "hardlink",
+      "sha256": "adbd15234c9a1e6705ece1e962672058252580b73e5ffa57029747d7153620f1",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "help/orange-spectroscopy/OrangeSpectroscopyAdd-on.hhp",
+      "path_type": "hardlink",
+      "sha256": "7d6b5023e0e23f5d4e8f31458fe4fe4e13976f4ede9153dee19b4637fcc77de5",
+      "size_in_bytes": 1132
+    },
+    {
+      "_path": "help/orange-spectroscopy/OrangeSpectroscopyAdd-on.stp",
+      "path_type": "hardlink",
+      "sha256": "bf9d0b8ee6de8464c0609731c9335997865eb58aecded38c90b69093ec1d4f05",
+      "size_in_bytes": 165
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Average-Spectra-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "c773e4ecf58493c09c84b916f94c64de3b84c0e89220d938e462ee22909fea5a",
+      "size_in_bytes": 5422
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/HyperSpectra-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "67df2580ca47691fd2a8b0b08c2a9bc7b2f6dbb61d4fbefd9fabc2ddb25b2ee2",
+      "size_in_bytes": 62941
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Integrate-Spectra-Example.png",
+      "path_type": "hardlink",
+      "sha256": "7d299b2d44008ce2ba47f7ad32c99abe7206032880467367006767e6aaf3e102",
+      "size_in_bytes": 60888
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Integrate-Spectra-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "9ae8c3e34c8a249d72fb1a7bd173a1e27b6fa519fe35142036a49ae8c6fcd6fa",
+      "size_in_bytes": 31757
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Interpolate-Example2.png",
+      "path_type": "hardlink",
+      "sha256": "ce3289ae3bfb12ca376b19b5f442b483611fe75a52a46175e0ea5554d382f8cc",
+      "size_in_bytes": 70077
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Interpolate-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "3ae93f251e43a09349c077507b08bac533325b29268a8336ad82cb85b388d26c",
+      "size_in_bytes": 7843
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Multifile-Example.png",
+      "path_type": "hardlink",
+      "sha256": "cc562cae7a381bb4ddf4381697e2778cfdcf62e3b1e0bf390f32f148564b667a",
+      "size_in_bytes": 68448
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Multifile-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "2328e4283369d695bca65590c3148a2c2f33989baa4db56f5fa2b968414507f0",
+      "size_in_bytes": 18921
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/PLS-Example.png",
+      "path_type": "hardlink",
+      "sha256": "564d1305267fba1c1956a717e117a87449a29c365889c54c01233fa9b397c0b5",
+      "size_in_bytes": 97594
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/PLS-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "60d43f5e642fae882c4733afa2cf599c962347bad3d4410cb139372d69b16bf7",
+      "size_in_bytes": 9120
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Preprocess-Spectra-Example.png",
+      "path_type": "hardlink",
+      "sha256": "29ef69ed3822e3916048cadc56a185b90f2fcd5f386b3d903436a2e9bbc88082",
+      "size_in_bytes": 86533
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Preprocess-Spectra-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "071ea187b20edff1c9fa89ddbf5b29cffc06dae28d8aab7448b96a3c282b0f68",
+      "size_in_bytes": 33892
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Reshape-Map-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "5c0d0d8754acb62b33b358a65c87fb61fc9e7c8c859648df6235921eeaa75195",
+      "size_in_bytes": 5064
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Spectra-Example1.png",
+      "path_type": "hardlink",
+      "sha256": "5889cbd53c7f6a62a628659f34c9b8b13fbcc9979cf0a3de6fbccec72242b40b",
+      "size_in_bytes": 85445
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Spectra-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "68ca36f024cf0454ebf295e0c06422dea55a8f218273f61cd8bfce1c8d2afdb6",
+      "size_in_bytes": 54120
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Tilefile-Example.png",
+      "path_type": "hardlink",
+      "sha256": "883889fe01f46833884c2485f5ecaf728c465813864a0e445d5c007931cb186a",
+      "size_in_bytes": 24261
+    },
+    {
+      "_path": "help/orange-spectroscopy/_images/Tilefile-stamped.png",
+      "path_type": "hardlink",
+      "sha256": "31d61d98291944c3f094ef19988c62c16ce23551cbb046f04c4e458ade2f16fe",
+      "size_in_bytes": 19885
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/alabaster.css",
+      "path_type": "hardlink",
+      "sha256": "67e598979516bfa32eae490cfc05ae76e54632b33ab722610ea0e51a8ae6fc6f",
+      "size_in_bytes": 11185
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/basic.css",
+      "path_type": "hardlink",
+      "sha256": "d2b287574abee70e30a43e33978a79e19895fa6eb1c6d0819a6e06477024eb05",
+      "size_in_bytes": 13647
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/custom.css",
+      "path_type": "hardlink",
+      "sha256": "39f23a6561786e3cb4e33e4a96562a1305a8b74c0d45dc215a64018692cd5d4c",
+      "size_in_bytes": 42
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/doctools.js",
+      "path_type": "hardlink",
+      "sha256": "c7581dde67527fe9cc914823d652ff4b6e4c1d17768b84788ab10c98c86d2eb8",
+      "size_in_bytes": 9592
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/documentation_options.js",
+      "path_type": "hardlink",
+      "sha256": "28dd8be074a22cc4821b085f4b364872d13c175fa342dfeeca9359a667374a67",
+      "size_in_bytes": 354
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/file.png",
+      "path_type": "hardlink",
+      "sha256": "5c4bc9a16aebf38c4b950f59b8e501ca36495328cb9eb622218bce9064a35e3e",
+      "size_in_bytes": 286
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/jquery-3.5.1.js",
+      "path_type": "hardlink",
+      "sha256": "416a3b2c3bf16d64f6b5b6d0f7b079df2267614dd6847fc2f3271b4409233c37",
+      "size_in_bytes": 287630
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/jquery.js",
+      "path_type": "hardlink",
+      "sha256": "f7f6a5894f1d19ddad6fa392b2ece2c5e578cbf7da4ea805b6885eb6985b6e3d",
+      "size_in_bytes": 89476
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/language_data.js",
+      "path_type": "hardlink",
+      "sha256": "0f801fdcd0b2e552c271791c8fdb6e894c0a3de6908ed112165308be79a7fcb3",
+      "size_in_bytes": 325
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/minus.png",
+      "path_type": "hardlink",
+      "sha256": "47e7fc50db3699f1ca41ce9a2ffa202c00c5d1d5180c55f62ba859b1bd6cc008",
+      "size_in_bytes": 90
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/plus.png",
+      "path_type": "hardlink",
+      "sha256": "54115199b96a130cba02147c47c0deb43dcc9b9f08b5162bba8642b34980ac63",
+      "size_in_bytes": 90
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/pygments.css",
+      "path_type": "hardlink",
+      "sha256": "1dae86fdcef1cf8c69a21c8e06d2bfd945a1a314e2ec7c0585913e2a36ae022c",
+      "size_in_bytes": 4846
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/searchtools.js",
+      "path_type": "hardlink",
+      "sha256": "ec9388d082c72b9ed4c819bf7d7e3f3ae09d08f1b80dff80552fae877d770df4",
+      "size_in_bytes": 16582
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/style.css",
+      "path_type": "hardlink",
+      "sha256": "aece049e62d9f3b8b09c4c77e83479f390e79455b47465d14c88cc09e51da8b5",
+      "size_in_bytes": 427
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/underscore-1.12.0.js",
+      "path_type": "hardlink",
+      "sha256": "17593fc70248aa6169a7c031f5d5975f999fdbb835b7a5f665e4cbbc0bc4c894",
+      "size_in_bytes": 67692
+    },
+    {
+      "_path": "help/orange-spectroscopy/_static/underscore.js",
+      "path_type": "hardlink",
+      "sha256": "1bc0ea4e2fe66ac337fb1863bbdb4c8f044ee4e84dbe0f0f1b3959bebfa539c1",
+      "size_in_bytes": 19358
+    },
+    {
+      "_path": "help/orange-spectroscopy/genindex.html",
+      "path_type": "hardlink",
+      "sha256": "ec81bbaaf2d4271a079f913789c60b83781f32ae142f06091b6b344d4de04a16",
+      "size_in_bytes": 1419
+    },
+    {
+      "_path": "help/orange-spectroscopy/index.html",
+      "path_type": "hardlink",
+      "sha256": "f460f44751dba382f5700927e95ab6e07654d77fd59a7cfda7d28a9f95d7bcad",
+      "size_in_bytes": 4437
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/SpikeRemoval.html",
+      "path_type": "hardlink",
+      "sha256": "979bef9b26fc75d543234eaacfddd57d6d8cc2c7cdfcab708fbcb78f2148e4a4",
+      "size_in_bytes": 2670
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/als.html",
+      "path_type": "hardlink",
+      "sha256": "050e9efb4a04d38dbb72ff4e71a8abf1858fdb1bae74f75f981a94226c33a66b",
+      "size_in_bytes": 5030
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/average.html",
+      "path_type": "hardlink",
+      "sha256": "d5bfed9cc30b645ef0efd21c017736c84873c4b473181ff496d4eef8f7931416",
+      "size_in_bytes": 2452
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/hyperspectra.html",
+      "path_type": "hardlink",
+      "sha256": "dcd64c7852505774ddbdf8c6d58dde471be117bdb40d68a525d5aa22b1fa3bbb",
+      "size_in_bytes": 3938
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/integrate-spectra.html",
+      "path_type": "hardlink",
+      "sha256": "5c25c50fdcd85e647755cf207c3343aa5091016932be65a1a64c5846e05497c0",
+      "size_in_bytes": 3945
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/interferogram-to-spectrum.html",
+      "path_type": "hardlink",
+      "sha256": "d68bcb11d4c17282a94003f2e70491362a36b42584409269a20e0e5404979448",
+      "size_in_bytes": 2089
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/interpolate.html",
+      "path_type": "hardlink",
+      "sha256": "b2a797aed29fcbe20ad4fae02dd02e2b83181bc0f7e768561c51b3749fa1ed26",
+      "size_in_bytes": 5470
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/multifile.html",
+      "path_type": "hardlink",
+      "sha256": "057a187f85f1a4f73248e9c671835dab462f04d7ab6365333bd4f80588828633",
+      "size_in_bytes": 3567
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/pls.html",
+      "path_type": "hardlink",
+      "sha256": "3204f1cf27ec5166694382940f759277d81d425b4ab7bdff2f9c55300352ca08",
+      "size_in_bytes": 3645
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/preprocess-spectra.html",
+      "path_type": "hardlink",
+      "sha256": "551f2e3622774028ef87627072f426c836d6fd35cbf0c0e2d69550f6f3fdbbf7",
+      "size_in_bytes": 6941
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/reshape-map.html",
+      "path_type": "hardlink",
+      "sha256": "1f819ea5eb56df4d8984f8e078f4b96f35172ac98508959e30975cfd3d8775e6",
+      "size_in_bytes": 2370
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/spectra.html",
+      "path_type": "hardlink",
+      "sha256": "af47a8235a60bef1e2a21e64ba9ea577a1bcc86c445c458e496a39dc6fa1df1d",
+      "size_in_bytes": 4929
+    },
+    {
+      "_path": "help/orange-spectroscopy/widgets/tilefile.html",
+      "path_type": "hardlink",
+      "sha256": "afb304ffe57dda7e8af993794c2ac9f67d101cb6ef87e73c23193bea8f255cbd",
+      "size_in_bytes": 4625
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "c5e7864774e3768571745785e93fb34b065687a12dfbe118b8f5aeebb2f12ff7",
+      "size_in_bytes": 574
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "b7f38749af6ec061aedad22500639b20773a54b91748c0f59745af03dc836704",
+      "size_in_bytes": 1180
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "b41f1891120ee95467e639ee257ca7f8e27061a08dcb2b6c26eba436813e32c4",
+      "size_in_bytes": 12130
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "dd098fba1fff349b809769840abb6996b2b2171c2ba661672b5343e5a57aa435",
+      "size_in_bytes": 299
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "22eb7e2537d3d754991c79bbeff65eb330fba590d65dc4f07826efac9a6a0f24",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "da91cac4d61df1985cfe1fab8da16efc5704e9bc59b2fad64d621c918a5ef925",
+      "size_in_bytes": 181
+    },
+    {
+      "_path": "site-packages/Orange_Spectroscopy-0.5.8-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "22eb7e2537d3d754991c79bbeff65eb330fba590d65dc4f07826efac9a6a0f24",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "edd72fe61f1c479e5e9be8702ab6be311f474c3f719d2c3bac39ccf8e8a0306b",
+      "size_in_bytes": 311
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/agilent.py",
+      "path_type": "hardlink",
+      "sha256": "1b5f3ef0f1c869c1d41c6ce6302940bc0e71903968cd8bae437ad66cfefb5fac",
+      "size_in_bytes": 21271
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/data.py",
+      "path_type": "hardlink",
+      "sha256": "30ed3d08781147b25ad6c681c07eb594b1e34a1e5033ea7486a0e0be7ec9b191",
+      "size_in_bytes": 57148
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/Au168mA_nodisplacement.gsf",
+      "path_type": "hardlink",
+      "sha256": "c12b7c973ae2ed998b749258c831e5bba432f47ec75bdf726da2d576cbb3e279",
+      "size_in_bytes": 82060
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/Hermes_HDF5/small_OK.hdf5",
+      "path_type": "hardlink",
+      "sha256": "c7045e2a00d082fa5c060068b3e8c2c4e1cc8effded3864d9dc6d508e65b2f77",
+      "size_in_bytes": 7704
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/IFG_single.dpt",
+      "path_type": "hardlink",
+      "sha256": "4364fc878e9a00e1ae7adbd5d3bd15bc7401eea708da87aa583d3bbc8ce7f6e8",
+      "size_in_bytes": 88727
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/NeaReaderGSF_test/NeaReaderGSF_test O2A raw.gsf",
+      "path_type": "hardlink",
+      "sha256": "acfec3f911cfda42ca8b08569e5d8a87935f4d06866e904c3b761cbf96751b65",
+      "size_in_bytes": 4292
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/NeaReaderGSF_test/NeaReaderGSF_test O2P raw.gsf",
+      "path_type": "hardlink",
+      "sha256": "18cf5078046f3a50635a9a1770c10502c7c24b7b4a99c9784dc2e58de44df25f",
+      "size_in_bytes": 4292
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/NeaReaderGSF_test/NeaReaderGSF_test.html",
+      "path_type": "hardlink",
+      "sha256": "a6c0591d36ecee68554583e0a9801068cecc5b5e7b447dc65426f3dd3cfc484e",
+      "size_in_bytes": 7977
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/4_noimage_agg256.bsp",
+      "path_type": "hardlink",
+      "sha256": "0d8e344d03b347f2161d19f5cfaf3c496e081f94606bdb807085e29a9c20f703",
+      "size_in_bytes": 17408
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/4_noimage_agg256.dat",
+      "path_type": "hardlink",
+      "sha256": "347307561a0c668c010d0a509cb4fb85272fdec2d0c6945929977adf02887620",
+      "size_in_bytes": 3324
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/4_noimage_agg256.hdr",
+      "path_type": "hardlink",
+      "sha256": "99fd175c8d2f245d89a0a0aa8f29750e12003d4bdbd9e11467a12e30ea549414",
+      "size_in_bytes": 348
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/4_noimage_agg256.seq",
+      "path_type": "hardlink",
+      "sha256": "66a76b6fd2dd36ad708dad1155bad05ef6579718ac0f985dc97bc2379e01cc04",
+      "size_in_bytes": 80636
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024.dat",
+      "path_type": "hardlink",
+      "sha256": "2c5d2b00433593ac14021b78f8dad9b002ee38c09b6319ba69ef75c164c6c9c5",
+      "size_in_bytes": 2172
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024.dms",
+      "path_type": "hardlink",
+      "sha256": "2c5d2b00433593ac14021b78f8dad9b002ee38c09b6319ba69ef75c164c6c9c5",
+      "size_in_bytes": 2172
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024.hdr",
+      "path_type": "hardlink",
+      "sha256": "b24f3f6ced212a785688ec4e892dfbc9837b0878288cd6a4a2f62a9df8ebc1cd",
+      "size_in_bytes": 348
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024_0000_0000.dmd",
+      "path_type": "hardlink",
+      "sha256": "ba39055d45142eabccda8ce1d463ffa121c3ed65edd7ab30f128af1805cdbad1",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024_0000_0000.drd",
+      "path_type": "hardlink",
+      "sha256": "7fb78b6d6b36b67639c29b9c92da5a1964494f951a8f50a2527a5e800859a618",
+      "size_in_bytes": 20924
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024_0000_0001.dmd",
+      "path_type": "hardlink",
+      "sha256": "31f999999c63c70740c5896d2ae8c5307678347bb8558c14b00f4bffd2cc1efb",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_Mosaic_agg1024_0000_0001.drd",
+      "path_type": "hardlink",
+      "sha256": "fe97efcbefe0b65ba7a5e7f7fe0203dd2ab51a0d4be99e5dc9799a9c1cdd4a8f",
+      "size_in_bytes": 20924
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/5_mosaic_agg1024.dmt",
+      "path_type": "hardlink",
+      "sha256": "7d6b19487b18967c6bdbc72e7e835ac3302d8308b880ea5bc5dee8f846d0fe41",
+      "size_in_bytes": 17920
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/background_agg256.bsp",
+      "path_type": "hardlink",
+      "sha256": "8b9b8eb8d94db58869946c55cf4c9fceddfcb88d43e8f6fa45e20ce8c1d65d0b",
+      "size_in_bytes": 18432
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/background_agg256.dat",
+      "path_type": "hardlink",
+      "sha256": "7fcb40fbda8e9c616d87bb8a54b0e8e9c704989c177cf6fb29d88ea4342205de",
+      "size_in_bytes": 3324
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/agilent/background_agg256.seq",
+      "path_type": "hardlink",
+      "sha256": "818493bc3a8332fd94583239b75fd0b4c4b7cc7a6ed45854b7e328179faf7528",
+      "size_in_bytes": 80636
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/collagen.csv",
+      "path_type": "hardlink",
+      "sha256": "ee342a119e1eaaa0d4e8f9debeabbb3be1110bd358816ef9b856ba4843afebe7",
+      "size_in_bytes": 1034486
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd1_rawSpec.csv",
+      "path_type": "hardlink",
+      "sha256": "a0a4ff04545281126b99e9c1fa909a7e074ffdabad551f0a8c32305d5fb83c2a",
+      "size_in_bytes": 20282
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd2_refSpec.csv",
+      "path_type": "hardlink",
+      "sha256": "e91af8517dd1cd726b41d42160135e79ef00487b9e32d98c07ce3b44c1285340",
+      "size_in_bytes": 17864
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd3_corr.csv",
+      "path_type": "hardlink",
+      "sha256": "51e9259cb406b1a5b2786760635eeaec07a4a676fba532aaa849395e5834469b",
+      "size_in_bytes": 2272
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd4_param.csv",
+      "path_type": "hardlink",
+      "sha256": "dac2a8fae85b652da5ae103111f46ebaad3235a8150f25f64a787025abc5b14b",
+      "size_in_bytes": 763
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd5_residuals.csv",
+      "path_type": "hardlink",
+      "sha256": "45526cbed571fd588d448c9593190a27a0f6250d6dbe96341fbe22f010fb9c93",
+      "size_in_bytes": 2494
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd6_niter.csv",
+      "path_type": "hardlink",
+      "sha256": "1c88b28b2af4852d1c8d6b39725207e2520f72ac64bf95ebf65dee66f4a13cf3",
+      "size_in_bytes": 51
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/emsc/MieStd7_RMSE.csv",
+      "path_type": "hardlink",
+      "sha256": "0c0ff1d66140d0accfa9d5ee7e442102033ef93faf5ce77bd6d0ef8ad6b676c0",
+      "size_in_bytes": 61
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/exafs-test.tab",
+      "path_type": "hardlink",
+      "sha256": "80cf117eec2453b8df2e32986395ae1551c96d7668450f5fc9c568265e05707c",
+      "size_in_bytes": 4565
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/m_xyxy.spc",
+      "path_type": "hardlink",
+      "sha256": "4da73121d532fb6ac32ea7ab6bb5cffa4f518a6cc9072738dd3815647c2bbed7",
+      "size_in_bytes": 49200
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/map_test.xyz",
+      "path_type": "hardlink",
+      "sha256": "13673e49f46b22ef5c2305675f25e535888c2c8d5b29650233417cfcfe27b4b2",
+      "size_in_bytes": 1156
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/metas_mixed.mat",
+      "path_type": "hardlink",
+      "sha256": "8054e316073a15cc56c6e35858691a948bbf42ba1800df72f5158c5185ab8854",
+      "size_in_bytes": 400
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/metas_numeric.mat",
+      "path_type": "hardlink",
+      "sha256": "28219c519c8147279c70172b9aaff6f53f27dc5673d9346b8d384fcb657cd21d",
+      "size_in_bytes": 392
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/metas_string.mat",
+      "path_type": "hardlink",
+      "sha256": "b0db0481bf40a1096186bbb7a0b114a3b71e302382b158ebf27144310e970031",
+      "size_in_bytes": 328
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/names.mat",
+      "path_type": "hardlink",
+      "sha256": "e027f6716269b66d97c2c5ee99aa5e4149fd7777425fe02aed2494288dbff076",
+      "size_in_bytes": 304
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/only_annotations.mat",
+      "path_type": "hardlink",
+      "sha256": "53d842b3230dd1a877a170de8525f4bec1cdd5770a6a1e17a3dc2e2c22e2c0ca",
+      "size_in_bytes": 224
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/simple.mat",
+      "path_type": "hardlink",
+      "sha256": "cb97076740f3def03a69356907144f7d12bef9f82d011634f79444d0c1dd03da",
+      "size_in_bytes": 232
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/matlab/wavenumbers.mat",
+      "path_type": "hardlink",
+      "sha256": "acda313a60fb3e5ed478c15b1a335130ddd678b81978e9143a23ed38557c18e8",
+      "size_in_bytes": 312
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/nea_test_v2.txt",
+      "path_type": "hardlink",
+      "sha256": "373649838747c51fc146d8a90976a83afc0d98528185f506b78586371b718c98",
+      "size_in_bytes": 1163
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/peach_juice.0",
+      "path_type": "hardlink",
+      "sha256": "7c1c901767cd00312f04d09d558ac5d049cdcaea3543d71c1d4bdfad5ae2034b",
+      "size_in_bytes": 1184436
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/peach_juice.dpt",
+      "path_type": "hardlink",
+      "sha256": "8c562a69b2d1e4bc5d4058a2a495366122cd6075002815fffa37450a7faa4ada",
+      "size_in_bytes": 36060
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/photothermal/Hyper_Sample.ptir",
+      "path_type": "hardlink",
+      "sha256": "a6937971890a605b384874e7f5523902f8a65fc5944cb6beb59a1a2d8ea842ae",
+      "size_in_bytes": 249008
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/photothermal/Nodax_Spectral_Array.ptir",
+      "path_type": "hardlink",
+      "sha256": "727f1e014cebca74528eece2f24ade52cfb35ec008f15054269bc38db14f25b4",
+      "size_in_bytes": 139224
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/renishaw_test_files/sp.wdf",
+      "path_type": "hardlink",
+      "sha256": "5ca8c55848b4bdbe73fa2ca44f3e211613b52c65bf2aaaf5b14e8858f4e3f565",
+      "size_in_bytes": 74855
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/rock.txt",
+      "path_type": "hardlink",
+      "sha256": "9b3c526176c903f7cff758af4aa247fb349cae726b8d06f06c9b240672e17044",
+      "size_in_bytes": 575
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/sample1.spa",
+      "path_type": "hardlink",
+      "sha256": "68afc2580f2c3fde240d02c58f1535999bb5e81c7d0dee0fc6bcd4adefe90e25",
+      "size_in_bytes": 8868
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/small_Omnic.map",
+      "path_type": "hardlink",
+      "sha256": "9c24ab0378ef956b39d74f60068a2610e6c3b3b8afe7fb14ab0b36d1bc6e1d29",
+      "size_in_bytes": 1737576
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/spectra20_small.nea",
+      "path_type": "hardlink",
+      "sha256": "fe50885774314ae292c1344f0eeb661d8fda0c8af0a86bdd3f386299027c8182",
+      "size_in_bytes": 8016
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/three_coordinates_data.csv",
+      "path_type": "hardlink",
+      "sha256": "fc2cd71e0d5eb998e88bba7bc55e34eac504a0f83de1a591e4fc11d2e8337276",
+      "size_in_bytes": 11032
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/datasets/whitelight.gsf",
+      "path_type": "hardlink",
+      "sha256": "86dd68f0d84f7e9f12688ffdeada695504de2962a2e58a738f67d799261bc001",
+      "size_in_bytes": 80272
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/irfft.py",
+      "path_type": "hardlink",
+      "sha256": "6681af7fec75938db400abbb6c48edca44671971b8feb38634971ed43a5a85bd",
+      "size_in_bytes": 12418
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/models/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/models/pls.py",
+      "path_type": "hardlink",
+      "sha256": "046d9e8ce5bc942714d8365c71c03b45232b87c24685292b4729ac7b576cbb73",
+      "size_in_bytes": 2107
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "c593988d108dbd44918f176c350da37cbd8f523580d7ec851f5f7d90b7d2713e",
+      "size_in_bytes": 30907
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/als/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "6a0508e0297a5a3509082b272b1983dacaf9010aa3ca468b1fe7779c5d5ef171",
+      "size_in_bytes": 4146
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/als/baseline.py",
+      "path_type": "hardlink",
+      "sha256": "47cd8a939298e9b2194da4a03165c934c7ce45e833db65bca1a45247a64a1eb1",
+      "size_in_bytes": 10814
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/emsc.py",
+      "path_type": "hardlink",
+      "sha256": "32c6abb61b3836c2510e445afde48962da02fad34dedb23d846c3e18f3af612d",
+      "size_in_bytes": 7060
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/integrate.py",
+      "path_type": "hardlink",
+      "sha256": "7789e02057e2d8c8ce2d04cb47ea8992de33e0f6b08147a3129f7defd0146347",
+      "size_in_bytes": 9693
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/me_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "4884ddf6209d82907a5ba89f93d7989060df9d0c4103d564c9f5ba30b6d49d67",
+      "size_in_bytes": 16476
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/npfunc.py",
+      "path_type": "hardlink",
+      "sha256": "7d9328719b03e6ab5715f746376e61ddc471fd11589e0657bdf3dde357fcba84",
+      "size_in_bytes": 1301
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/transform.py",
+      "path_type": "hardlink",
+      "sha256": "e54d3e549bf4096d440a0817f44fa4ba8b9eb7620941f727a94256995065c0a8",
+      "size_in_bytes": 3488
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/preprocess/utils.py",
+      "path_type": "hardlink",
+      "sha256": "4aab9cbdffcd762b5e191002c53175a51acc54ea471f0953bea7f44f6d9c2d15",
+      "size_in_bytes": 7428
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/pymca5/DataObject.py",
+      "path_type": "hardlink",
+      "sha256": "35ae1c44a38457528016fe27f36e55f839f490f8821882c8ba2b6565c8e29ad9",
+      "size_in_bytes": 6737
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/pymca5/OmnicMap.py",
+      "path_type": "hardlink",
+      "sha256": "bf462a4101c7c4017bb913d3f132edcf4ee2d998dfe2ab1344d0225fc1e1811e",
+      "size_in_bytes": 12793
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/pymca5/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "984da13a787c40f3b3b0de9178329ce807da78665286cdf7d1f2a1a19609d92e",
+      "size_in_bytes": 481
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/bigdata.py",
+      "path_type": "hardlink",
+      "sha256": "caea6c1abef28186a4dd44ce396ea6323a0eec181e8ec0af745acf363a0069e4",
+      "size_in_bytes": 547
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/example_connect_settings.py",
+      "path_type": "hardlink",
+      "sha256": "583ca648ef70efe67bbca6c4fdd660ef596cca2fa840823207f45548ccf70511",
+      "size_in_bytes": 2320
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/spectral_preprocess.py",
+      "path_type": "hardlink",
+      "sha256": "f0777d1ee0e75c417b870d26ba59d3e31a17cb4389a73426076e8021f2d94eb5",
+      "size_in_bytes": 4580
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_als.py",
+      "path_type": "hardlink",
+      "sha256": "ea30f2b5dab2fd1a03be25066a31e1e225b031233f0d1ea7aca6b66ad7a8e758",
+      "size_in_bytes": 1575
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_conversion.py",
+      "path_type": "hardlink",
+      "sha256": "b2c806c8521ac7c729df38080888f1dcf9e6b76de26fa540580a6acbfa569f2d",
+      "size_in_bytes": 6533
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_cut.py",
+      "path_type": "hardlink",
+      "sha256": "c8cc4fb4c02d44314f96b321f2bcfa0f36bdf42ae62062877db3af625aec8486",
+      "size_in_bytes": 2058
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_despike.py",
+      "path_type": "hardlink",
+      "sha256": "1e371d5741c76ca78df074995583d02151d3432f36577ab1b0cf3e7f29fcde0f",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_als.py",
+      "path_type": "hardlink",
+      "sha256": "568b415bd74e6e4436c416550562e647ac78c597bdf48fde73a15ba3757fa95a",
+      "size_in_bytes": 2685
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_baseline.py",
+      "path_type": "hardlink",
+      "sha256": "c6c8cc7a866830e8cc527367a96f0d9afb43c78c9ad594a0d92cdf0307e341e6",
+      "size_in_bytes": 3127
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "e27c856fd45aa3f10350016319bfd4f5f2a0c17edccd7a2dceb36ce6e8e28c91",
+      "size_in_bytes": 2325
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_gaussian.py",
+      "path_type": "hardlink",
+      "sha256": "c49f34e1c83378ff152332ea2978e17b4ef5e6bfc95e04e344ac048df31c9193",
+      "size_in_bytes": 1625
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_me_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "712f96734c87d8fd9f3868c6e28a851fea1fd79aefeff8342777d3b93b99a152",
+      "size_in_bytes": 1566
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_normalize.py",
+      "path_type": "hardlink",
+      "sha256": "e75f29cce961e44ad321ae52ec9340d36326546fe0940b551e05743700ca4376",
+      "size_in_bytes": 2548
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_editor_spikeremoval.py",
+      "path_type": "hardlink",
+      "sha256": "41bcbaa51297ce4f1ec5f9cf26977350626abf7aeef476a5a424e28e88c5768f",
+      "size_in_bytes": 2036
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "b6910240cb76666138145011ef88d622eb9d87420e25483debde65181c890129",
+      "size_in_bytes": 7762
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_integrate.py",
+      "path_type": "hardlink",
+      "sha256": "e8e356fbca7c36f808e6feedb9ccff4b88c974bfe9ab2981ce43d9f0a0f5f250",
+      "size_in_bytes": 5558
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_interpolate.py",
+      "path_type": "hardlink",
+      "sha256": "c58c88134dcba6c71879b9249b17d6ee45eab5153ece5768a77468a8e5badb89",
+      "size_in_bytes": 5667
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_irfft.py",
+      "path_type": "hardlink",
+      "sha256": "7649867987cbe6228dbdaa00d39f023d725f4ef797397a93a101a3d33d42f38e",
+      "size_in_bytes": 5516
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_me_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "d16967a99ba9ec578b9e2209f18ebedeea3fd97392097aa20a855c5b64b77869",
+      "size_in_bytes": 10220
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_npfunc.py",
+      "path_type": "hardlink",
+      "sha256": "bc109e70cb2f977aaf07a91783b3a8cc8c5b16b25ebcf6bafe210e6a2e627150",
+      "size_in_bytes": 1163
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owalignstack.py",
+      "path_type": "hardlink",
+      "sha256": "43ad066a8395886c73770e8911981000d152fed7397fadd0bbfe36e612c373a3",
+      "size_in_bytes": 11732
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owaverage.py",
+      "path_type": "hardlink",
+      "sha256": "35f0eba5653507ac3111cf746f23588677f64d9ac5ca5c1257f82f0706a71da9",
+      "size_in_bytes": 5883
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owbin.py",
+      "path_type": "hardlink",
+      "sha256": "a10af6603870dbcbf5f44187c2ddfecc9fd76f1c46a249466fd87673713ee96a",
+      "size_in_bytes": 4256
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owfft.py",
+      "path_type": "hardlink",
+      "sha256": "8f156303e75420ab220c60ee268911f7c93a8d2fa6afa62a12f477338fe3882a",
+      "size_in_bytes": 5806
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owhyper.py",
+      "path_type": "hardlink",
+      "sha256": "3a67cabf52e01638b0a7a86a438b0ded60ef02e26d6948899dd4768cb39dce83",
+      "size_in_bytes": 22344
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owintegrate.py",
+      "path_type": "hardlink",
+      "sha256": "aa3e3c3a1dcee4a101fa8529872b89224c98800266816fa9e1e7c1fda3dc4a85",
+      "size_in_bytes": 5604
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owinterpolate.py",
+      "path_type": "hardlink",
+      "sha256": "d517b02c79f6cb6f573ebe7f5d649d081042f3241e4cc737b826f21651a888a4",
+      "size_in_bytes": 3273
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owmultifile.py",
+      "path_type": "hardlink",
+      "sha256": "9856b772606d20ad1329feaa9759b6e2700d9bf5c3f7fcd1bc7e3a16bcc1ce5a",
+      "size_in_bytes": 11121
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owpls.py",
+      "path_type": "hardlink",
+      "sha256": "9beccbff42c6f94590134c2daedc49cdbf8f2b5d6930b2f57f2617434bbdef11",
+      "size_in_bytes": 2700
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owpreprocess.py",
+      "path_type": "hardlink",
+      "sha256": "2fee61780ad132d3006d63acfe1367acbec66234bd90f2e34a50f763579adf30",
+      "size_in_bytes": 15430
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owreshape.py",
+      "path_type": "hardlink",
+      "sha256": "fee903a30a924a9ca67836157b1324047076adebc2d6128be313ce6d40c84b71",
+      "size_in_bytes": 2660
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owsnr.py",
+      "path_type": "hardlink",
+      "sha256": "2e3f88be6946fe11c6d01854809ba93de155c5545f72b9c53494b2df8788959c",
+      "size_in_bytes": 3028
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owspectra.py",
+      "path_type": "hardlink",
+      "sha256": "636f7ff74644d8fd956ba193d8b996a61db825c821dcd60c4c2f1d90a6553933",
+      "size_in_bytes": 23307
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_owspectralseries.py",
+      "path_type": "hardlink",
+      "sha256": "748e5e756f0d9f54d120c0fcd0bc6c2022ec29de7e4f8dbdc191fab4404372a6",
+      "size_in_bytes": 5021
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_preprocess.py",
+      "path_type": "hardlink",
+      "sha256": "21af2d7f4eaf2f0be618ce4d670c140b32b17727cf3add4b4ffee738fb2d7cbe",
+      "size_in_bytes": 19750
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_readers.py",
+      "path_type": "hardlink",
+      "sha256": "0b3290721ff4e67a67e47dcecf28f4d61181109b911a270ee5bbfb09e1f66360",
+      "size_in_bytes": 20596
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_tile_reader.py",
+      "path_type": "hardlink",
+      "sha256": "fbab81411a9f9c04fb84bcf2e25ff0201435f5a9322f5218a731a2a0a46062c1",
+      "size_in_bytes": 3317
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_utils.py",
+      "path_type": "hardlink",
+      "sha256": "b1dabcac4f376053c550b00b2d101102f904a5ec3ca59a68093e87438768c805",
+      "size_in_bytes": 2076
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_widgets_utils.py",
+      "path_type": "hardlink",
+      "sha256": "735eb6bfc0f510d6c399e9224e8f288eb570d25b6e985045ef47b3d361ab6ab1",
+      "size_in_bytes": 1337
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/test_xas.py",
+      "path_type": "hardlink",
+      "sha256": "c1cd777c0732a156c66d53ea72ba6d870a969f04d7b1bacb85307aecc381ab36",
+      "size_in_bytes": 2324
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/time_interpolation.py",
+      "path_type": "hardlink",
+      "sha256": "783f412cc44901f47a0cb004ae0ea5bca0b6456a90c4d8b8790ccda07973d931",
+      "size_in_bytes": 1120
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/time_irfft.py",
+      "path_type": "hardlink",
+      "sha256": "87b12a5bfed2bdd15509a882f312ec0b2f4a06d8a7ea74cbbd07c0a973566ebb",
+      "size_in_bytes": 3392
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/time_preprocess.py",
+      "path_type": "hardlink",
+      "sha256": "179c82f11ccfb30daa8e140310a24d247178412a385f76de014f5a2d2b8192b2",
+      "size_in_bytes": 821
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tests/util.py",
+      "path_type": "hardlink",
+      "sha256": "97b8d86ee8f8c4ac4b77046fdb03278650ab09203f5b48a03f313684b233a0d6",
+      "size_in_bytes": 1260
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tutorials/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/tutorials/tile-loader.ows",
+      "path_type": "hardlink",
+      "sha256": "c09539c1d1ad978ed358477dd818462523a7ef7bcd39fa66d87d55e961e038fa",
+      "size_in_bytes": 7503
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "fc2a6aa3dd11031a52f796c6b428d55a5df2d7efde08709ab6293a911149b614",
+      "size_in_bytes": 4298
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/binning.py",
+      "path_type": "hardlink",
+      "sha256": "cbd8a43f0d26acbad3cb3af02726951d495650e12261bcd2435b4bfe58cdffa7",
+      "size_in_bytes": 1984
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/skimage/README.txt",
+      "path_type": "hardlink",
+      "sha256": "df90b8bce31665f180d47a00523b0cee685415ce593b8a2c7a63ebc2d6a2115b",
+      "size_in_bytes": 1648
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/skimage/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/skimage/register_translation.py",
+      "path_type": "hardlink",
+      "sha256": "799df444d89eb66ab58726d8cd8ee2bc77f6ee15eca49eb6aafc9a5dca7e97bc",
+      "size_in_bytes": 11583
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/skimage/shape.py",
+      "path_type": "hardlink",
+      "sha256": "dcfbde30237457d73a132e12e397c1cc2f74df0d2f6d4fff83dc717dacb902f8",
+      "size_in_bytes": 8405
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/spc/README.txt",
+      "path_type": "hardlink",
+      "sha256": "b02fd9349596c47b0cf50b026ab8ff2f48d4e3f8e3adca483274f2d28ec59afb",
+      "size_in_bytes": 213
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/spc/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "72714c5afe0ea9737e0965bb133368b4ebd4754819123e42313f4e3b70106c71",
+      "size_in_bytes": 232
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/spc/global_fun.py",
+      "path_type": "hardlink",
+      "sha256": "466d321a7f204c473c153115623c70c434adb0886012a32b489bde32d4c88c73",
+      "size_in_bytes": 1691
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/spc/spc.py",
+      "path_type": "hardlink",
+      "sha256": "830ba670a9bb987aa263175953efa139fa59be475effc0957a23d4b0188d0284",
+      "size_in_bytes": 25174
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/utils/spc/sub.py",
+      "path_type": "hardlink",
+      "sha256": "559fb14a5ff0f189b0bd90e7a9510bedca5def829fef05cdfc4b6f5030478562",
+      "size_in_bytes": 5891
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "645e8ba76434c54864f68fd0e8b4f4a455d7dbb93ae764165b0f5d655404ee77",
+      "size_in_bytes": 1071
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/gui.py",
+      "path_type": "hardlink",
+      "sha256": "5714cf654ed6b17b44724a329cb8fd9dc974741aa877e18c1b2fb300614d4d2f",
+      "size_in_bytes": 16098
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/PLS.svg",
+      "path_type": "hardlink",
+      "sha256": "018e6d336ed180d5a576d6806bd834f72e65ce404524c6a28cf5b4b4208e7d63",
+      "size_in_bytes": 7458
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/average.svg",
+      "path_type": "hardlink",
+      "sha256": "2dc2f33d70f7f12ee763d72afcba86cc3c93bff3712b2321a2d5c46e29eecf35",
+      "size_in_bytes": 4452
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/bin.svg",
+      "path_type": "hardlink",
+      "sha256": "6ba734f45599cd8a5f578b3b75f66df12f63568aea00c9829c23a0c9eb48a1e8",
+      "size_in_bytes": 2088
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/category.svg",
+      "path_type": "hardlink",
+      "sha256": "7395061aac4388b0b5b63d0568693ee90af74afd2b3bbae44e3fd88fea9c8ef2",
+      "size_in_bytes": 4674
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/fft.svg",
+      "path_type": "hardlink",
+      "sha256": "70dfdbf649d0aab08fb928e9138a335732e1735c1057b4ee1f28df255ce8e783",
+      "size_in_bytes": 982
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/hyper.svg",
+      "path_type": "hardlink",
+      "sha256": "1ddbc84bbd916f007eb6e48b62258dcc33e66a0f4dff57519993d8496e9282e4",
+      "size_in_bytes": 1494
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/integrate.svg",
+      "path_type": "hardlink",
+      "sha256": "210aaf42b8915d2aba2d5ec8b735ea310a7b034c70760c50ac152c51393e53eb",
+      "size_in_bytes": 1150
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/interpolate.svg",
+      "path_type": "hardlink",
+      "sha256": "4bb6e96697cf274a976a3416511b82821c2a627eba49cdd0ea011cce84ebc4a2",
+      "size_in_bytes": 759
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/multifile.svg",
+      "path_type": "hardlink",
+      "sha256": "683b16391caaa90af56638cd21da43bbfcb915561db08aa871141f2de3123324",
+      "size_in_bytes": 3335
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/mywidget.svg",
+      "path_type": "hardlink",
+      "sha256": "b95b41f8ab4bbaca7bc3fca0e1d0ea7b133a022c84938ea65993d02d33123ab6",
+      "size_in_bytes": 631
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/preprocess.svg",
+      "path_type": "hardlink",
+      "sha256": "fd548c7144ee6e8a679f8f601e31e40f394a4b0918a8cda4841b60d9af625cbc",
+      "size_in_bytes": 1561
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/reshape.svg",
+      "path_type": "hardlink",
+      "sha256": "2f5464e52ea9316b2472f7ec30a1e931d97a5be754582dc0f3b5f4ee5faf5610",
+      "size_in_bytes": 1353
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/snr.svg",
+      "path_type": "hardlink",
+      "sha256": "22416658fbe68a37a9eaa17ab49b29f5bbc590ef34a5def937de9a54cf8da405",
+      "size_in_bytes": 6411
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/spectra.svg",
+      "path_type": "hardlink",
+      "sha256": "85c24e3c29e5de2e1da749a84eb5caed202f4cada41247d75ece6ee270e0dca0",
+      "size_in_bytes": 922
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/spectralseries.svg",
+      "path_type": "hardlink",
+      "sha256": "38c8f1d174694db3ed416c124d235b473838640f9c30a5969ac6fafea807dd74",
+      "size_in_bytes": 2499
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/stackalign.svg",
+      "path_type": "hardlink",
+      "sha256": "f0e08bca49cf13a7e02be71445ae352616c396b0e7296b3e5074ff83e0b5d85e",
+      "size_in_bytes": 461
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/icons/tilefile.svg",
+      "path_type": "hardlink",
+      "sha256": "6a99b8a238d7159a11b4c2eac1a199f61ea8a1275aea0a2b3f609e449a803574",
+      "size_in_bytes": 9635
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/line_geometry.py",
+      "path_type": "hardlink",
+      "sha256": "876de35a88dd287e18edd4fbf4ec3a7bc39c46cb583311e3c9ae3105a2e99de6",
+      "size_in_bytes": 6170
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owaverage.py",
+      "path_type": "hardlink",
+      "sha256": "6708abb5e0be3cca5cd04b80e3d3ffed5f2930ee94fc47dd24460b24a14c229c",
+      "size_in_bytes": 5186
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owbin.py",
+      "path_type": "hardlink",
+      "sha256": "b57f572b1eeaad99a17d18e9489aae976d8e450e292b025b3e395c095408f112",
+      "size_in_bytes": 7342
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owfft.py",
+      "path_type": "hardlink",
+      "sha256": "5251ff3770d7f04a71b3518e552da78177473aaaecefc94cfc770a9e34586312",
+      "size_in_bytes": 24428
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owhyper.py",
+      "path_type": "hardlink",
+      "sha256": "8ecb63517bd1606687f1a5fc63c2d1979a618f7957e2b496541bf836c50184af",
+      "size_in_bytes": 45705
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owintegrate.py",
+      "path_type": "hardlink",
+      "sha256": "16783a01cb2af1f7b4234a94245d23f84430b334fc0b5124ec029d78186df9a1",
+      "size_in_bytes": 10802
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owinterpolate.py",
+      "path_type": "hardlink",
+      "sha256": "3a43d98edaff0ae11e91445c8cf55919a13038119504889884e59abfeb794948",
+      "size_in_bytes": 5644
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owmultifile.py",
+      "path_type": "hardlink",
+      "sha256": "2eee35efb2d5ee421636a641c54456c4d3533f98439a6e533fef448ec5ec83a3",
+      "size_in_bytes": 16176
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owpls.py",
+      "path_type": "hardlink",
+      "sha256": "cab1c3b7a94e8b64c92c88e249a16c85ae9083a051833eabd5e5503cd33ce951",
+      "size_in_bytes": 2895
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owpreprocess.py",
+      "path_type": "hardlink",
+      "sha256": "b503559da6a4c86e590b69453fbb31cab4e625d84d8bab50fe7c4ba067a3aba6",
+      "size_in_bytes": 67172
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owreshape.py",
+      "path_type": "hardlink",
+      "sha256": "5f3f6350c328c3a3a41620eabfd451ca813816c2f6cfc9a329fa66980013e188",
+      "size_in_bytes": 4781
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owsnr.py",
+      "path_type": "hardlink",
+      "sha256": "4491b4c05ebd12b9c84c31f5f3c5e6df1a6763076bcb08a1c22941191197cf86",
+      "size_in_bytes": 8065
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owspectra.py",
+      "path_type": "hardlink",
+      "sha256": "395c1d4ea2ce4075404e3d9ce13218ca39bdb4b97695c12660ab2a27af56e365",
+      "size_in_bytes": 64012
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owspectralseries.py",
+      "path_type": "hardlink",
+      "sha256": "296194c29ef05d08a02141491279c9777b0a5e40f950e2c855a04524a01faaf6",
+      "size_in_bytes": 11531
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owstackalign.py",
+      "path_type": "hardlink",
+      "sha256": "e5e146f558acb202fd9cd0ca5f4b29c74c49a46200bef1d9b3b84a8b6e44a4e5",
+      "size_in_bytes": 10132
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/owtilefile.py",
+      "path_type": "hardlink",
+      "sha256": "a5f1787e084ba3df4e9ff440c5b7b3c5fdad3cf79bf09443ee43b518bd58eb03",
+      "size_in_bytes": 21767
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/als.py",
+      "path_type": "hardlink",
+      "sha256": "cccc2d64724c833fa12b0c8f4163a4e05bb1f826b373887c80587a99b04216d6",
+      "size_in_bytes": 4552
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/baseline.py",
+      "path_type": "hardlink",
+      "sha256": "084bd8480e896293bf8768fb4972a5b2f45fdbcba3461b5d9e0215350cc2a549",
+      "size_in_bytes": 6193
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/emsc.py",
+      "path_type": "hardlink",
+      "sha256": "db2b30db76da8edf5731d9ad9078be1dd12a7195f499115a91d42872353c8604",
+      "size_in_bytes": 9917
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/integrate.py",
+      "path_type": "hardlink",
+      "sha256": "1796be43975821e2806d4a82e00d1cdf9a7b24c6222db6bcf4d0af238f85d424",
+      "size_in_bytes": 8292
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/me_emsc.py",
+      "path_type": "hardlink",
+      "sha256": "fbe455e79b6d6606efad8f02a8d068ef4fe3472811c5ad2d536cbe15b6a55674",
+      "size_in_bytes": 2257
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/normalize.py",
+      "path_type": "hardlink",
+      "sha256": "c4973b46e22bdd8e2fda830f3657568f7d9e4d8f74ec5645d5095ee8e56ae6de",
+      "size_in_bytes": 9460
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/spikeremoval.py",
+      "path_type": "hardlink",
+      "sha256": "5ca7c133cff6cf83c60d40d33e57b4c539741d28bfcfd203e4ce4c3f0c7a2fd2",
+      "size_in_bytes": 2524
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/preprocessors/utils.py",
+      "path_type": "hardlink",
+      "sha256": "ee726a24aee4520d6ea64cbd5a8e4ddfd1ce51bd69c34154fe66df573dbd3208",
+      "size_in_bytes": 2665
+    },
+    {
+      "_path": "site-packages/orangecontrib/spectroscopy/widgets/utils.py",
+      "path_type": "hardlink",
+      "sha256": "0623cb932e281bbbbd661c079b8460865b54a4c10ddd08f6a97b15b101c5e443",
+      "size_in_bytes": 2127
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,1 @@
+{"build": "py_0", "build_number": 0, "depends": ["numpy >=1.12.0", "python"], "license": "GPL-3", "license_family": "GPL", "name": "renishawwire", "noarch": "python", "subdir": "noarch", "timestamp": 1596537072568, "version": "0.1.8", "size": 13664, "md5": "cc08e2d0213e0ea1109af7f13f251124", "sha256": "9a74d0d5c99be0ccfd4463725c1f2ccc9a5e3b53a6f63de5667b580ace00bb86"}

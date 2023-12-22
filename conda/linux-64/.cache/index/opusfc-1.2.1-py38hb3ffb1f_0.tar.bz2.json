@@ -1,0 +1,1 @@
+{"build": "py38hb3ffb1f_0", "build_number": 0, "depends": ["libgcc-ng >=9.3.0", "numpy", "python >=3.8,<3.9.0a0", "python_abi 3.8.* *_cp38"], "name": "opusfc", "subdir": "linux-64", "timestamp": 1601333480965, "version": "1.2.1", "size": 185824, "md5": "2a10315feb3a7c562dcb3565c1b8f803", "sha256": "a82ddcef6325bde6a04c11ba5609ae7f0d95ef2143592280f384bc99d5603860"}
