@@ -21,7 +21,7 @@ Number of participants: ~30_
 
 ## Past
 
-__[Lund, Sweden](https://x.com/LINXS_Sweden/status/1717853313285136391?s=20https://x.com/LINXS_Sweden/status/1717853313285136391?s=20)__  
+__[Lund, Sweden](https://x.com/LINXS_Sweden/status/1717853313285136391)__  
 _October 25-27, 2023  
 Workshop organized at LINXS  
 Number of participants: ~8_
