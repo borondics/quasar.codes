@@ -42,7 +42,7 @@ jobs:
         run: |
           conda install conda-build
           cd static/conda
-          conda index
+          conda index .
           cd ../..
 
       - name: Build page
