@@ -1,1 +1,0 @@
-{"build": "py_0", "build_number": 0, "depends": ["orange-spectroscopy", "orange3", "python"], "license": "GPL-3", "license_family": "GPL", "name": "quasar", "noarch": "python", "subdir": "noarch", "timestamp": 1556791406275, "version": "0.3.0", "size": 86612, "md5": "34d5205783b43b909d7e521e1241460d", "sha256": "8a2858f37ac9e1a3df553eb2547e9abcc08410279f34a6b595b0d0e93855e166"}
