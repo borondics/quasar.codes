@@ -14,7 +14,7 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
-__[Berlin, Germany](https://www.helmholtz-berlin.de/veranstaltungen/bessy-ii-infrared-data-analysis-training-quasar/)__  
+__[Berlin, Germany](https://www.helmholtz-berlin.de/forschung/quellen/bessy/index_en.html)__  
 _11-13 March, 2024  
 Workshop organized by the BESSY-II Synchrotron  
 Number of participants: ~30_
