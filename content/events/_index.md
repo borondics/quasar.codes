@@ -76,7 +76,7 @@ _October 24-26, 2018
 Live workshop organized by the SOLEIL Synchrotron  
 Number of participants: ~30_
 
-__[Melbourne, Australia](https://events01.synchrotron.org.au/event/91/timetable/?view=standard_inline_minutes)__  
+__[Melbourne, Australia](https://events01.synchrotron.org.au/event/91/)__  
 _September 26-27, 2018  
 Live workshop organized by the Australian Synchrotron  
 Number of participants: ~20_
