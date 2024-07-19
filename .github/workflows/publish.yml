@@ -21,7 +21,7 @@ jobs:
 
       - name: Build hugo page
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.49.2/hugo_0.129.2_Linux-64bit.deb
+          wget https://github.com/gohugoio/hugo/releases/download/v0.129.2/hugo_0.129.2_Linux-64bit.deb
           sudo dpkg -i hugo*.deb
           rm -rf public 2> /dev/null
           rm *.deb
