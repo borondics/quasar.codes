@@ -19,6 +19,11 @@ _October 30-November 1, 2024
 Workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 
+__[Castelldefels, Spain](https://wirms2024.com/data-analysis-workshop/)__  
+_October 7, 2024  
+Workshop organized by the ALBA Synchrotron  
+Number of participants: ~30_
+
 ## Past
 
 __[Berlin, Germany](https://www.helmholtz-berlin.de/forschung/quellen/bessy/index_en.html)__  
