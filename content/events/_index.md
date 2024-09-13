@@ -14,12 +14,17 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
+__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2024/InfraRED-QUASAR-Workshop-2024.html)__  
+_October 30-November 1, 2024  
+Workshop organized by the Diamond Synchrotron  
+Number of participants: ~30_
+
+## Past
+
 __[Berlin, Germany](https://www.helmholtz-berlin.de/forschung/quellen/bessy/index_en.html)__  
 _11-13 March, 2024  
 Workshop organized by the BESSY-II Synchrotron  
 Number of participants: ~30_
-
-## Past
 
 __[Lund, Sweden](https://x.com/LINXS_Sweden/status/1717853313285136391)__  
 _October 25-27, 2023  
