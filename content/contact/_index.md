@@ -47,6 +47,13 @@ If something is not working, you have a question, a request or just want to say 
    </div>
 </form>
 
+Contribute
+==========
+
+All development happens in the [Quasars](https://github.com/Quasars) Github organization. 
+
+The best place to start for bug reports, discussions, feature requests and code contributions is
+the [orange-spectroscopy](https://github.com/Quasars/orange-spectroscopy) repository.
 
 Pay-for-feature requests
 ========================
