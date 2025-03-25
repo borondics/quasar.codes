@@ -1,7 +1,7 @@
 baseURL = "https://quasar.codes"
 languageCode = "en-us"
 title = "Quasar"
-paginate = 5 #frontpage pagination
+pagination.pagerSize = 5 #frontpage pagination
 
 [markup.goldmark.renderer]
 unsafe = true
