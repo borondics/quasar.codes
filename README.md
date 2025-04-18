@@ -1,3 +1,4 @@
+[![pages-build-deployment](https://github.com/Quasars/quasar.codes/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/Quasars/quasar.codes/actions/workflows/pages/pages-build-deployment)
 [![Push to GitHub Pages on push to master](https://github.com/Quasars/quasar.codes/actions/workflows/publish.yml/badge.svg)](https://github.com/Quasars/quasar.codes/actions/workflows/publish.yml)
 # Quasar-hugo
 
