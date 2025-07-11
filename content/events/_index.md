@@ -19,11 +19,6 @@ _November 5-7, 2025
 Workshop organized at LINXS  
 Number of participants: ~30_
 
-__[Oxford, UK]()__  
-_September 3-5, 2025
-Workshop organized by the Diamond Synchrotron  
-Number of participants: ~30_
-
 __[Saint Aubin, France](https://www.synchrotron-soleil.fr/en/events/stat-ir8-2025)__  
 _June 18-20, 2025  
 Workshop organized by the SOLEIL Synchrotron  
