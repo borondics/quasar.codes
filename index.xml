@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Free your data on Quasar</title>
+    <link>https://quasar.codes/</link>
+    <description>Recent content in Free your data on Quasar</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://quasar.codes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Random forests on spectral derivatives.</title>
+      <link>https://quasar.codes/screenshots/liver-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quasar.codes/screenshots/liver-classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Classification of a hyperspectral image.</title>
+      <link>https://quasar.codes/screenshots/hair-classification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quasar.codes/screenshots/hair-classification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://quasar.codes/contact-private/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://quasar.codes/contact-private/</guid>
+      <description>&lt;p&gt;Do you find Quasar useful and would like to contribute to the project? We are&#xA;always happy to form new connections.&lt;/p&gt;&#xA;&lt;p&gt;Also, contact us if your are missing a specific component (visualization, file reader,&#xA;preprocessing method, or similar) and are willing to commit resources towards&#xA;its development.&lt;/p&gt;&#xA;&lt;p&gt;Please describe your proposal or issue as thoroughly as possible. If you are&#xA;proposing an addition to Quasar, please also mention a rough deadline and available resources.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
