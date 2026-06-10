@@ -7,7 +7,7 @@ If you like our work and used Quasar or Orange-Spectroscopy for your data analys
 
 __Quasar papers:__  
 
-- G. Németh, et al. [Robust and Democratic s-SNOM Data Analysis and Modeling in Quasar](https://doi.org/10.1021/acsomega.6c02534)  
+- G. Németh, et al. [Robust and Democratic s-SNOM Data Analysis and Modeling in Quasar](https://doi.org/10.1021/acsomega.6c02534) ACS Omega 11, 32971 (2026)  
 - C. Gassner, et al. [Bridging spectroscopy and advanced molecular orientation analysis with new 4＋ angle polarization toolbox in Quasar](https://doi.org/10.1016/j.compbiomed.2025.110573) Comput. Biol. Med. 196, 110573 (2025)  
 - M. Toplak, et al. [Quasar: Easy Machine Learning for Biospectroscopy.](https://doi.org/10.3390/cells10092300) Cells 10, 2300 (2021)
 - M. Toplak, et al. [Infrared Orange: Connecting Hyperspectral Data with Machine Learning.](https://doi.org/10.1080/08940886.2017.1338424) Synchrotron Rad. News 30, 40–45 (2017)
