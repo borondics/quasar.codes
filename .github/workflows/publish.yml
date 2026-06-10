@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v6
+        uses: actions/checkout@main
         
       - name: Build hugo page
         run: |
@@ -27,7 +27,7 @@ jobs:
           rm *.deb
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@main
         with:
           python-version: '3.11'
 
