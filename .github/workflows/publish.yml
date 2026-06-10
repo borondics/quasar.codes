@@ -39,13 +39,20 @@ jobs:
       #    pip install toml
       #    python scripts/update_citations.py
 
+      # - name: Build conda index
+      #   run: |
+      #     conda install conda-build
+      #     cd static/conda
+      #     conda index .
+      #     cd ../..
+
       - name: Build conda index
         run: |
-          conda install conda-build
+          pip install conda-index
           cd static/conda
-          conda index .
+          python -m conda_index .
           cd ../..
-
+    
       - name: Build page
         run: |
           hugo
