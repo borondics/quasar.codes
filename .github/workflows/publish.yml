@@ -51,7 +51,7 @@ jobs:
         run: |
           conda install conda-build
           cd static/conda
-          conda index .
+          python -m conda_index .
           cd ../..
 
       - name: Build page
