@@ -1,0 +1,43 @@
+name: Update citation counts (monthly)
+
+on:
+  schedule:
+    # 03:00 on the 1st of every month: https://crontab.guru/#0_3_1_*_*
+    - cron: '0 3 1 * *'
+  # Allow manual runs from the Actions tab (use this for the first real run).
+  workflow_dispatch:
+
+permissions:
+  contents: write  # needed to commit the refreshed data/citations.toml
+
+jobs:
+  update-citations:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@main
+
+      - name: Setup Python
+        uses: actions/setup-python@main
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install requests toml
+
+      - name: Refresh citations
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python scripts/update_citations_serpapi.py
+
+      - name: Commit updated counts
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- data/citations.toml; then
+            echo "No change in citation counts."
+          else
+            git add data/citations.toml
+            git commit -m "Update citation counts"
+            git push
+          fi
