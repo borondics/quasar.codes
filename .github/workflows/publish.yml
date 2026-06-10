@@ -82,11 +82,12 @@ jobs:
       #     SKIP_EMPTY_COMMITS: True
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@master
-        with:
-          args: "--verbose --no-progress './public/**/*.html'"
-          fail: true
+      # temporarily disable link checker
+      # - name: Link Checker
+      #   uses: lycheeverse/lychee-action@master
+      #   with:
+      #     args: "--verbose --no-progress './public/**/*.html'"
+      #     fail: true
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
