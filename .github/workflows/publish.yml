@@ -67,28 +67,7 @@ jobs:
         run: |
           hugo
           echo 'quasar.codes' > public/CNAME
-          # touch public/.nojekyll # not needed with new type of deployment
           
-      # trying another action that supports node.js 24
-      # # Deploy to local repo
-      # - name: Deploy
-      #   if: github.ref == 'refs/heads/master'
-      #   uses: s0/git-publish-subdir-action@develop
-      #   env:
-      #     REPO: self
-      #     BRANCH: gh-pages
-      #     FOLDER: public
-      #     SQUASH_HISTORY: True
-      #     SKIP_EMPTY_COMMITS: True
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # temporarily disable link checker
-      # - name: Link Checker
-      #   uses: lycheeverse/lychee-action@master
-      #   with:
-      #     args: "--verbose --no-progress './public/**/*.html'"
-      #     fail: true
-
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v5
         with:
@@ -116,7 +95,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout                      # only needed so .lycheeignore is present
+      - name: Checkout   # only needed so .lycheeignore is present
         uses: actions/checkout@main
  
       - name: Download built site
