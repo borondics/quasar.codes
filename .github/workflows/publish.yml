@@ -26,11 +26,12 @@ jobs:
           rm -rf public 2> /dev/null
           rm *.deb
 
-      - name: Setup Python
-        uses: actions/setup-python@main
-        with:
-          python-version: '3.13'
-
+      # Disabled because only the citation updater was using it anyway
+      # - name: Setup Python
+      #   uses: actions/setup-python@main
+      #   with:
+      #     python-version: '3.13'
+      #
       # Disabled for now due to spurious timeouts
       #- name: Refresh citations
       #  run: |
