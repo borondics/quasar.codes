@@ -39,20 +39,21 @@ jobs:
       #    pip install toml
       #    python scripts/update_citations.py
 
-      # - name: Build conda index
-      #   run: |
-      #     conda install conda-build
-      #     cd static/conda
-      #     conda index .
-      #     cd ../..
+      - uses: conda-incubator/setup-miniconda@main
+        with:
+          miniforge-variant: Miniforge3
+          miniforge-version: latest
+          channels: conda-forge
+          channel-priority: strict
 
       - name: Build conda index
+        shell: bash -l {0}
         run: |
-          pip install conda-index
+          conda install conda-build
           cd static/conda
-          python -m conda_index .
+          conda index .
           cd ../..
-    
+
       - name: Build page
         run: |
           hugo
