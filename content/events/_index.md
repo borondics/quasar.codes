@@ -30,7 +30,7 @@ Number of participants: ~30_
 __[Lund, Sweden](https://www.linxs.se/events/2025/11/04-06/quasar-for-spectral-data-analysis)__  
 _November 5-7, 2025
 Workshop organized at LINXS  
-Number of participants: ~30_
+Number of participants: ~30_  
 [Read our interview with LINXS](https://www.linxs.se/news/2025/11/20/quasar-instructors-visit-linxs-to-teach-data-analysis-with-the-help-of-modern-machine-learning)
 
 __[Saint Aubin, France](https://www.synchrotron-soleil.fr/en/events/stat-ir8-2025)__  
