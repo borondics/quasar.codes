@@ -110,3 +110,30 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+
+
+  link-check:
+    name: Link check
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout                      # only needed so .lycheeignore is present
+        uses: actions/checkout@main
+ 
+      - name: Download built site
+        uses: actions/download-artifact@v8
+        with:
+          name: github-pages
+          path: artifact
+ 
+      - name: Unpack site
+        run: |
+          mkdir -p public
+          tar -xf artifact/artifact.tar -C public
+ 
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403 = publisher bot-blocking (your DOIs), 429 = rate limiting — not real breakage
+          args: "--no-progress --accept 200,206,403,429 './public/**/*.html'"
+          fail: true
