@@ -21,6 +21,12 @@ Number of participants: ~10-30_
 
 ## Past
 
+__[Oxford, UK](https://www.diamond.ac.uk/Home/Events/2026/InfraRed-Data-and-Image-Analysis-Training-on-QUASAR-2026.html)__  
+_12-12 June, 2026   
+Workshop organized by the Diamond Synchrotron  
+Number of participants: ~30_
+[Training material](https://notes.biolab.si/quasar/26-diamond)
+
 __[Lund, Sweden](https://www.linxs.se/events/2025/11/04-06/quasar-for-spectral-data-analysis)__  
 _November 5-7, 2025
 Workshop organized at LINXS  
