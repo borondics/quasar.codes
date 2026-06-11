@@ -51,6 +51,25 @@
       margin-top: 0.7rem;
       margin-bottom: 0.7rem;
     }
+
+    details.event {
+      max-width: 35rem;
+      margin: 0.7rem 0;
+    }
+
+    details.event > summary {
+      cursor: pointer;
+    }
+
+    details.event > summary:hover {
+      color: #fff;
+    }
+
+    details.event .event-body {
+      padding-left: 1.05rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.9rem;
+    }
     </style>
 
     {{- $isServerMode := hugo.IsServer -}}
