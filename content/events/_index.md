@@ -14,10 +14,9 @@ Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#f
 
 ## Future
 
-{{< event title="Your department!?" date="Month day-day+2, 2026" open="true" >}}
+**Your department!?** Month day-day+2, 2026  
 _Workshop organized at your department  
-Number of participants: ~10-30_
-{{< /event >}}
+Number of participants: ~10-30_  
 
 ## Past
 
@@ -29,23 +28,23 @@ Number of participants: ~30_
 [Training material](https://notes.biolab.si/quasar/26-diamond)
 {{< /event >}}
 
-{{< event title="Lund, Sweden" url="https://www.linxs.se/events/2025/11/04-06/quasar-for-spectral-data-analysis" date="November 5-7, 2025" >}}
+{{< event title="Lund, Sweden" url="https://www.linxs.se/events/2025/11/04-06/quasar-for-spectral-data-analysis" date="5-7 November, 2025" >}}
 _Workshop organized at LINXS  
 Number of participants: ~30_  
 [Read our interview with LINXS](https://www.linxs.se/news/2025/11/20/quasar-instructors-visit-linxs-to-teach-data-analysis-with-the-help-of-modern-machine-learning)
 {{< /event >}}
 
-{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/stat-ir8-2025" date="June 18-20, 2025" >}}
+{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/stat-ir8-2025" date="18-20 June, 2025" >}}
 _Workshop organized by the SOLEIL Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2024/InfraRED-QUASAR-Workshop-2024.html" date="October 30-November 1, 2024" >}}
+{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2024/InfraRED-QUASAR-Workshop-2024.html" date="30 October-1 November, 2024" >}}
 _Workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Castelldefels, Spain" url="https://wirms2024.com/data-analysis-workshop/" date="October 7, 2024" >}}
+{{< event title="Castelldefels, Spain" url="https://wirms2024.com/data-analysis-workshop/" date="7 October, 2024" >}}
 _Workshop organized by the ALBA Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
@@ -55,62 +54,62 @@ _Workshop organized by the BESSY-II Synchrotron
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Lund, Sweden" url="https://x.com/LINXS_Sweden/status/1717853313285136391" date="October 25-27, 2023" >}}
+{{< event title="Lund, Sweden" url="https://x.com/LINXS_Sweden/status/1717853313285136391" date="25-27 October, 2023" >}}
 _Workshop organized at LINXS  
 Number of participants: ~8_
 {{< /event >}}
 
-{{< event title="Saint Aubin, France" url="https://indico.synchrotron-soleil.fr/event/61/" date="October 16-18, 2023" >}}
+{{< event title="Saint Aubin, France" url="https://indico.synchrotron-soleil.fr/event/61/" date="16-18 October, 2023" >}}
 _Workshop organized at the SOLEIL Synchrotron  
 Number of participants: ~20_
 {{< /event >}}
 
-{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2022/Infrared-microspectroscopy-analysis-training---QUASAR-software0.html" date="November 1-3, 2022" >}}
+{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2022/Infrared-microspectroscopy-analysis-training---QUASAR-software0.html" date="1-3 November, 2022" >}}
 _Live workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Padova, Italy" url="https://www.dpss.unipd.it/nirs-practical-applications" date="October 20, 2022" >}}
+{{< event title="Padova, Italy" url="https://www.dpss.unipd.it/nirs-practical-applications" date="20 October, 2022" >}}
 _Independent, hybrid workshop organized by the Monash University (Australia) and Padova University (Italy)  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/stat-ir-6" date="May 11-13, 2022" >}}
+{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/stat-ir-6" date="11-13 May, 2022" >}}
 _Online workshop organized by the SOLEIL Synchrotron  
 Number of participants: ~70_
 {{< /event >}}
 
-{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html" date="March 23 and 25, 2021" >}}
+{{< event title="Oxford, UK" url="https://www.diamond.ac.uk/Home/Events/2021/Advanced-Infrared-microspectroscopy-analysis-training---QUASAR-software.html" date="23-25 March, 2021" >}}
 _Online workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Lund, Sweden" url="https://indico.linxs.lu.se/event/165/" date="January 13-15, 2021" >}}
+{{< event title="Lund, Sweden" url="https://indico.linxs.lu.se/event/165/" date="13-15 January, 2021" >}}
 _Hybrid workshop organized by LINXS  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Saskatoon, Canada SK" url="https://midir.lightsource.ca/quasar-workshop-2020/" date="October 15 and 16, 2020" >}}
+{{< event title="Saskatoon, Canada SK" url="https://midir.lightsource.ca/quasar-workshop-2020/" date="15-16 October, 2020" >}}
 _Online workshop organized by the Canadian Light Source  
 Number of participants: ~80_
 {{< /event >}}
 
-{{< event title="Oxford, UK" url="https://twitter.com/DiamondLightSou/status/1281636643137560576" date="July 7 and 10, 2020" >}}
+{{< event title="Oxford, UK" url="https://twitter.com/DiamondLightSou/status/1281636643137560576" date="7-10 July, 2020" >}}
 _Online workshop organized by the Diamond Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Lund, Sweden" url="https://www.linxs.se/events/2020/5/22/linxs-event-online-lecture-user-friendly-analysis-of-spectroscopy-data-with-quasar-multivariate-statistics-and-machine-learning" date="May 22, 2020" >}}
+{{< event title="Lund, Sweden" url="https://www.linxs.se/events/2020/5/22/linxs-event-online-lecture-user-friendly-analysis-of-spectroscopy-data-with-quasar-multivariate-statistics-and-machine-learning" date="22 May, 2020" >}}
 _Online workshop organized by LINXS  
 Number of participants: ~25_
 {{< /event >}}
 
-{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/school-statir-2018" date="October 24-26, 2018" >}}
+{{< event title="Saint Aubin, France" url="https://www.synchrotron-soleil.fr/en/events/school-statir-2018" date="24-26 October, 2018" >}}
 _Live workshop organized by the SOLEIL Synchrotron  
 Number of participants: ~30_
 {{< /event >}}
 
-{{< event title="Melbourne, Australia" url="https://events01.synchrotron.org.au/event/91/" date="September 26-27, 2018" >}}
+{{< event title="Melbourne, Australia" url="https://events01.synchrotron.org.au/event/91/" date="26-27 September, 2018" >}}
 _Live workshop organized by the Australian Synchrotron  
 Number of participants: ~20_
 {{< /event >}}
