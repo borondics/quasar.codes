@@ -76,7 +76,7 @@ _January 13-15, 2021
 Hybrid workshop organized by LINXS  
 Number of participants: ~30_
 
-__[Saskatoon, Canada SK](https://midir.lightsource.ca/quasar-workshop-2020/)__  
+__[Saskatoon, Canada SK](https://midir.lightsource.ca/)__  
 _October 15 and 16, 2020  
 Online workshop organized by the Canadian Light Source  
 Number of participants: ~80_
