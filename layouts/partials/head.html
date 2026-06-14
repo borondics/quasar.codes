@@ -9,6 +9,7 @@
 
     html {
       font-size: 1.1em;
+      scrollbar-gutter: stable;
     }
 
     body {
@@ -18,6 +19,7 @@
       line-height: 1.5;
       background-image: url(/graphics/stars_background.png);
       background-position: center;
+      background-attachment: fixed;
       -webkit-font-smoothing: antialiased;
       -moz-font-smoothing: antialiased;
       -o-font-smoothing: antialiased;
@@ -50,6 +52,25 @@
       max-width: 35rem;
       margin-top: 0.7rem;
       margin-bottom: 0.7rem;
+    }
+
+    details.event {
+      max-width: 35rem;
+      margin: 0.7rem 0;
+    }
+
+    details.event > summary {
+      cursor: pointer;
+    }
+
+    details.event > summary:hover {
+      color: #fff;
+    }
+
+    details.event .event-body {
+      padding-left: 1.05rem;
+      margin-top: 0.2rem;
+      margin-bottom: 0.9rem;
     }
     </style>
 

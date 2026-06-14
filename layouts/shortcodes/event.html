@@ -1,0 +1,11 @@
+<details class="event"{{ if .Get "open" }} open{{ end }}>
+  <summary>
+    {{- with .Get "url" }}
+    <a href="{{ . }}" class="b">{{ $.Get "title" }}</a>
+    {{- else }}
+    <span class="b">{{ .Get "title" }}</span>
+    {{- end }}
+    <span class="i o-80">&ndash; {{ .Get "date" }}</span>
+  </summary>
+  <div class="event-body">{{ .Inner | markdownify }}</div>
+</details>

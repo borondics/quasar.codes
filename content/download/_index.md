@@ -7,16 +7,16 @@ listing = true
 Windows
 =======
 
-[Quasar-1.11.1-Miniforge-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-1.11.1-Miniforge-x86_64.exe) - an
+[Quasar-1.13.1-x86_64.exe](https://download.biolab.si/download/files/quasar/Quasar-1.13.1-x86_64.exe) - an
 installer that can be used without administrative privileges (64 bit).
 
-When updating, remove the older version first. If there are any problems, also remove the corresponding Miniconda/Minifore and reinstall.
+When updating, remove the older version first.
 
-The package includes Python 3.11.8,
-Orange 3.38.1, Orange-Spectroscopy 0.8.1, Orange-SNOM 0.0.4,
-numpy 1.26.4, scipy 1.13.1, scikit-learn 1.5.2.
+The package includes Python 3.12.12,
+Orange 3.40.0, Orange-Spectroscopy 0.9.1, Orange-SNOM 0.1.0,
+numpy 2.1.3, scipy 1.13.1, scikit-learn 1.5.2.
 
-This installer used to be based on Miniconda, but since Anaconda changed their licensing terms, we switched to Miniforge in 1.10.2.
+This installer used to be based on Miniconda, but since Anaconda changed their licensing terms, we switched to Miniforge in 1.10.2. Since 1.12.0, this installer is based on micromamba.
 
 macOS
 =====
@@ -24,19 +24,19 @@ macOS
 Quasar for Apple silicon
 ------------------------
 
-[Quasar-1.11.1-Python3.11.8-arm64.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.11.1-Python3.11.8-arm64.dmg)
+[Quasar-1.13.1-Python3.12.10-arm64.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.13.1-Python3.12.10-arm64.dmg)
 
 
 Quasar for Intel
 ----------------
 
-[Quasar-1.11.1-Python3.10.11-x86_64.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.11.1-Python3.10.11-x86_64.dmg)
+[Quasar-1.13.1-Python3.12.10-x86_64.dmg](https://download.biolab.si/download/files/quasar/Quasar-1.13.1-Python3.12.10-x86_64.dmg)
 
 **Not sure which installer to select?** Click the Apple logo in the top-left corner of your screen, select About This Mac, and check the Chip or Processor field. If you see Apple, select the Orange for Apple Silicon installer. If you see Intel, select the Orange for Intel.
 
-The package includes
-Orange 3.38.1, Orange-Spectroscopy 0.8.1, Orange-SNOM 0.0.4,
-numpy 1.26.4, scipy 1.13.1, scikit-learn 1.5.2.
+The package includes Python 3.12.10,
+Orange 3.40.0, Orange-Spectroscopy 0.9.1, Orange-SNOM 0.1.0,
+numpy 2.1.3, scipy 1.13.1, scikit-learn 1.5.2.
 
 Version archive
 ===============
@@ -57,7 +57,7 @@ There, install Quasar with pip:
     
 The above command will install all dependencies except PyQt. Install it with
 
-    pip install PyQt5
+    pip install PyQt6 PyQt6-WebEngine
 
 Then, run Quasar with:
 

@@ -11,26 +11,36 @@ on:
     branches:
       - master
 
+# Least-privilege default; the deploy job escalates only what it needs.
+permissions:
+  contents: read
+ 
+# Allow one Pages deployment at a time; don't cancel an in-progress one.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+  
 jobs:
   build:
-    name: Deploy
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
         
       - name: Build hugo page
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v0.145.0/hugo_0.145.0_Linux-amd64.deb
+          wget https://github.com/gohugoio/hugo/releases/download/v0.163.0/hugo_0.163.0_Linux-amd64.deb
           sudo dpkg -i hugo*.deb
           rm -rf public 2> /dev/null
           rm *.deb
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
+      # Disabled because only the citation updater was using it anyway
+      # - name: Setup Python
+      #   uses: actions/setup-python@main
+      #   with:
+      #     python-version: '3.13'
+      #
       # Disabled for now due to spurious timeouts
       #- name: Refresh citations
       #  run: |
@@ -38,33 +48,70 @@ jobs:
       #    pip install toml
       #    python scripts/update_citations.py
 
+      - uses: conda-incubator/setup-miniconda@main
+        with:
+          miniforge-variant: Miniforge3
+          miniforge-version: latest
+          channels: conda-forge
+          channel-priority: strict
+
       - name: Build conda index
+        shell: bash -l {0}
         run: |
           conda install conda-build
           cd static/conda
-          conda index .
+          python -m conda_index .
           cd ../..
 
       - name: Build page
         run: |
           hugo
           echo 'quasar.codes' > public/CNAME
-          touch public/.nojekyll
-
-      # Deploy to local repo
-      - name: Deploy
-        if: github.ref == 'refs/heads/master'
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: gh-pages
-          FOLDER: public
-          SQUASH_HISTORY: True
-          SKIP_EMPTY_COMMITS: True
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@82202e5e9c2f4ef1a55a3d02563e1cb6041e5332 # pin version for security reasons
+          
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          args: "--verbose --no-progress './public/**/*.html'"
+          path: public
+
+  deploy:
+    name: Deploy
+    needs: build
+    if: github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
+
+  link-check:
+    name: Link check
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout   # only needed so .lycheeignore is present
+        uses: actions/checkout@main
+ 
+      - name: Download built site
+        uses: actions/download-artifact@main
+        with:
+          name: github-pages
+          path: artifact
+ 
+      - name: Unpack site
+        run: |
+          mkdir -p public
+          tar -xf artifact/artifact.tar -C public
+ 
+      - name: Check links
+        uses: lycheeverse/lychee-action@master
+        with:
+          # --root-dir lets lychee resolve root-relative links (/contact/, /logo/..., etc.)
+          args: "--no-progress --root-dir ${{ github.workspace }}/public --accept 200,206,403,429 './public/**/*.html'"
           fail: true
