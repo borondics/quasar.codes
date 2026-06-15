@@ -1,0 +1,163 @@
+{{- /*
+  verify-certificate.html — client-side PDF signature verifier for Hugo.
+
+  Verifies a PDF signed by sign.py (RSA PKCS#1 v1.5 over SHA-256, signature
+  appended as a base64 block between BEGIN/END SIGNATURE markers). All
+  verification runs in the browser via the Web Crypto API — no backend needed.
+
+  Usage in a page: call the shortcode "verify-certificate".
+  Optional param: keypath="/keys/public_key.pem" (this is the default).
+  Place your public key at static/keys/public_key.pem.
+*/ -}}
+{{ $keypath := .Get "keypath" | default "/keys/public_key.pem" }}
+{{ $id := printf "cv-%d" (now.UnixNano) }}
+
+<div class="cert-verifier" id="{{ $id }}">
+  {{- /* Native file input is visually hidden (Tachyons "clip"); the <label>
+        below is the visible button and reuses the exact main-page Download
+        button classes, so the styling stays in sync with the site. */ -}}
+  <input type="file" accept="application/pdf" class="cv-file clip" id="{{ $id }}-file" />
+  <label for="{{ $id }}-file" class="f5 no-underline grow dib v-mid white-90 bg-qred ba ph3 pv2 mb3 br2 pointer">Choose file</label>
+  <span class="cv-filename dib v-mid ph3">No file chosen</span>
+  <p class="cv-result" role="status" aria-live="polite"></p>
+</div>
+
+<style>
+  .cert-verifier .cv-result { font-weight: 600; margin-top: .75rem; min-height: 1.5em; }
+  .cert-verifier .cv-ok   { color: #16794a; }
+  .cert-verifier .cv-bad  { color: #b00020; }
+  .cert-verifier .cv-warn { color: #8a6d00; }
+</style>
+
+<script>
+(function () {
+  const root = document.getElementById("{{ $id }}");
+  const fileInput = root.querySelector(".cv-file");
+  const fileName = root.querySelector(".cv-filename");
+  const result = root.querySelector(".cv-result");
+  const KEY_PATH = {{ $keypath }};
+
+  const BEGIN = "%---BEGIN SIGNATURE---";
+  const END = "%---END SIGNATURE---";
+
+  function setResult(msg, cls) {
+    result.textContent = msg;
+    result.className = "cv-result " + cls;
+  }
+
+  // Find a byte subsequence (from a string) inside a Uint8Array, starting at `from`.
+  function indexOfBytes(haystack, needleStr, from = 0) {
+    const needle = new TextEncoder().encode(needleStr);
+    outer:
+    for (let i = from; i <= haystack.length - needle.length; i++) {
+      for (let j = 0; j < needle.length; j++) {
+        if (haystack[i + j] !== needle[j]) continue outer;
+      }
+      return i;
+    }
+    return -1;
+  }
+
+  // PEM (SPKI "PUBLIC KEY") -> ArrayBuffer of DER bytes.
+  function pemToDer(pem) {
+    const b64 = pem
+      .replace(/-----BEGIN [^-]+-----/, "")
+      .replace(/-----END [^-]+-----/, "")
+      .replace(/\s+/g, "");
+    const bin = atob(b64);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes.buffer;
+  }
+
+  function base64ToBytes(b64) {
+    const bin = atob(b64);
+    const bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    return bytes;
+  }
+
+  async function loadPublicKey() {
+    const resp = await fetch(KEY_PATH);
+    if (!resp.ok) throw new Error("Could not load public key (" + resp.status + ").");
+    const pem = await resp.text();
+    return crypto.subtle.importKey(
+      "spki",
+      pemToDer(pem),
+      { name: "RSASSA-PKCS1-v1_5", hash: "SHA-256" },
+      false,
+      ["verify"]
+    );
+  }
+
+  async function verify(buffer) {
+    const data = new Uint8Array(buffer);
+
+    const sigStart = indexOfBytes(data, BEGIN);
+    const sigEnd = sigStart === -1 ? -1 : indexOfBytes(data, END, sigStart);
+    if (sigStart === -1 || sigEnd === -1) {
+      setResult("⚠️  No signature found — this PDF is not signed.", "cv-warn");
+      return;
+    }
+
+    // The signature must be the last thing in the file. The signed content is
+    // only the bytes *before* the block, so any bytes after the END marker are
+    // NOT covered by the signature. PDF viewers render from the trailer at the
+    // end of the file and honour incremental updates appended after existing
+    // content, so accepting trailing bytes would let an attacker append a new
+    // revision to a genuinely-signed certificate and still get "authentic".
+    // Reject anything other than trailing whitespace after the END marker.
+    for (let i = sigEnd + END.length; i < data.length; i++) {
+      const b = data[i];
+      if (b !== 0x0a && b !== 0x0d && b !== 0x09 && b !== 0x20) {
+        setResult("❌ Verification failed — data found after the signature block (file was modified).", "cv-bad");
+        return;
+      }
+    }
+
+    // Signed content = bytes before the block, with trailing \r and \n stripped.
+    let contentEnd = sigStart;
+    while (contentEnd > 0 && (data[contentEnd - 1] === 0x0a || data[contentEnd - 1] === 0x0d)) {
+      contentEnd--;
+    }
+    const content = data.slice(0, contentEnd);
+
+    // Extract base64 signature: lines inside the block that aren't comments.
+    const block = new TextDecoder("ascii").decode(data.slice(sigStart, sigEnd));
+    const b64 = block.split(/\r?\n/).filter(l => l && !l.startsWith("%")).join("");
+
+    let signature;
+    try {
+      signature = base64ToBytes(b64);
+    } catch (e) {
+      setResult("⚠️  Malformed signature data.", "cv-warn");
+      return;
+    }
+
+    try {
+      const key = await loadPublicKey();
+      const ok = await crypto.subtle.verify(
+        "RSASSA-PKCS1-v1_5", key, signature, content
+      );
+      if (ok) {
+        setResult("✅ This Quasar certificate is authentic.", "cv-ok");
+      } else {
+        setResult("❌ Verification failed — content was altered or signed with a different key.", "cv-bad");
+      }
+    } catch (e) {
+      setResult("❌ Error during verification: " + e.message, "cv-bad");
+    }
+  }
+
+  fileInput.addEventListener("change", () => {
+    const file = fileInput.files[0];
+    if (!file) return;
+    fileName.textContent = file.name;
+    setResult("Verifying…", "");
+    const reader = new FileReader();
+    reader.onload = () => verify(reader.result);
+    reader.onerror = () => setResult("❌ Could not read file.", "cv-bad");
+    reader.readAsArrayBuffer(file);
+  });
+})();
+</script>

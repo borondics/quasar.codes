@@ -1,8 +1,8 @@
-<p>In total, <b>{{ len $.Site.Data.publications.article }} papers</b> cite Quasar or Orange Spectroscopy.</p>
+<p>In total, <b>{{ len hugo.Data.publications.article }} papers</b> cite Quasar or Orange Spectroscopy.</p>
 
 {{ $lyear := 0 }}
 
-{{ range $.Site.Data.publications.article }}
+{{ range hugo.Data.publications.article }}
     {{ if le $lyear .year }}
         {{ $lyear = .year }}
     {{ end }}
@@ -10,7 +10,7 @@
 
 {{ range $year := seq $lyear 2017 }}
     <h2>{{$year}}</h2>
-    {{ range $.Site.Data.publications.article }}
+    {{ range hugo.Data.publications.article }}
         {{ if eq .year $year }}
             <p>{{.author}}, <a href="https://doi.org/{{.doi}}"><em>{{.title}}</em></a>, {{.journal}} {{.year}}</p>
         {{ end }}
