@@ -12,6 +12,8 @@ Participate in one of our training workshops!
 
 Would you like us to hold a workshop at your facility? [Let's talk!](/contact/#formspree) 
 
+You can verify a Quasar certificate [here](/certificate).
+
 ## Future
 
 **Your department!?** Month day-day+2, 2026  
