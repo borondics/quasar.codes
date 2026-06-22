@@ -6,10 +6,17 @@
   verification runs in the browser via the Web Crypto API — no backend needed.
 
   Usage in a page: call the shortcode "verify-certificate".
-  Optional param: keypath="/keys/public_key.pem" (this is the default).
-  Place your public key at static/keys/public_key.pem.
+  Optional param: keydir="/keys" (this is the default).
+  Place your public key(s) at static/keys/*.pem. Every .pem file in that
+  folder is tried in turn, so rotated/old keys keep verifying old certificates.
 */ -}}
-{{ $keypath := .Get "keypath" | default "/keys/public_key.pem" }}
+{{ $keydir := .Get "keydir" | default "/keys" }}
+{{ $keypaths := slice }}
+{{ range (readDir (printf "static%s" $keydir)) }}
+  {{ if and (not .IsDir) (strings.HasSuffix (lower .Name) ".pem") }}
+    {{ $keypaths = $keypaths | append (printf "%s/%s" $keydir .Name) }}
+  {{ end }}
+{{ end }}
 {{ $id := printf "cv-%d" (now.UnixNano) }}
 
 <div class="cert-verifier" id="{{ $id }}">
@@ -35,7 +42,7 @@
   const fileInput = root.querySelector(".cv-file");
   const fileName = root.querySelector(".cv-filename");
   const result = root.querySelector(".cv-result");
-  const KEY_PATH = {{ $keypath }};
+  const KEY_PATHS = {{ $keypaths }};
 
   const BEGIN = "%---BEGIN SIGNATURE---";
   const END = "%---END SIGNATURE---";
@@ -77,8 +84,8 @@
     return bytes;
   }
 
-  async function loadPublicKey() {
-    const resp = await fetch(KEY_PATH);
+  async function loadPublicKey(path) {
+    const resp = await fetch(path);
     if (!resp.ok) throw new Error("Could not load public key (" + resp.status + ").");
     const pem = await resp.text();
     return crypto.subtle.importKey(
@@ -134,13 +141,34 @@
       return;
     }
 
+    // Try every published key in turn: a certificate is authentic if it
+    // verifies against any one of them. This lets keys be rotated without
+    // invalidating certificates signed with an earlier key.
     try {
-      const key = await loadPublicKey();
-      const ok = await crypto.subtle.verify(
-        "RSASSA-PKCS1-v1_5", key, signature, content
-      );
-      if (ok) {
+      let verified = false;
+      let loadedAny = false;
+      let lastError = null;
+      for (const path of KEY_PATHS) {
+        let key;
+        try {
+          key = await loadPublicKey(path);
+        } catch (e) {
+          lastError = e; // couldn't fetch/parse this key — try the next one
+          continue;
+        }
+        loadedAny = true;
+        const ok = await crypto.subtle.verify(
+          "RSASSA-PKCS1-v1_5", key, signature, content
+        );
+        if (ok) {
+          verified = true;
+          break;
+        }
+      }
+      if (verified) {
         setResult("✅ This Quasar certificate is authentic.", "cv-ok");
+      } else if (!loadedAny) {
+        throw lastError || new Error("No public keys available.");
       } else {
         setResult("❌ Verification failed — content was altered or signed with a different key.", "cv-bad");
       }
